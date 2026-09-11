@@ -1,0 +1,5 @@
+scrape
+.next
+node_modules
+.git
+*.log
