@@ -9,25 +9,28 @@
       "title": "It's Showtime",
       "subtitle": "End of Regular Season Rankings",
       "href": "/2025/end-of-regular-season",
-      "image": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+      "image": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
     },
     {
       "season": 2025,
       "title": "We're Half Way There",
       "subtitle": "Second Quarter Rankings",
-      "href": "/2025/second-quarter"
+      "href": "/2025/second-quarter",
+      "image": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
     },
     {
       "season": 2025,
       "title": "4 down, 13 to go",
       "subtitle": "First Quarter Rankings",
-      "href": "/2025/first-quarter"
+      "href": "/2025/first-quarter",
+      "image": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
     },
     {
       "season": 2025,
       "title": "New Year, New Team",
       "subtitle": "Post Draft Rankings",
-      "href": "/2025/post-draft"
+      "href": "/2025/post-draft",
+      "image": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
     }
   ],
   "seasons": {
@@ -73,56 +76,56 @@
           ],
           "images": [
             {
-              "alt": "Post Draft Rankings",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
-              "alt": "Post Draft Rankings",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
-              "alt": "Post Draft Rankings",
-              "src": "/images/e0d00b_14d17900e7644bfcaf740791ce7b2e9e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_14d17900e7644bfcaf740791ce7b2e9e~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
-              "alt": "Post Draft Rankings",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Magtard.jpg",
-              "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             }
           ]
         },
@@ -163,56 +166,56 @@
           ],
           "images": [
             {
-              "alt": "Week 1",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Adrian.jpg",
-              "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Bekah.jpg",
-              "src": "/images/e0d00b_8a90c19847304583b91e310abf900135_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8a90c19847304583b91e310abf900135~mv2.jpg"
             },
             {
               "alt": "Magtard.jpg",
-              "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Gabe_edited.jpg",
-              "src": "/images/e0d00b_14d17900e7644bfcaf740791ce7b2e9e_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_14d17900e7644bfcaf740791ce7b2e9e~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             }
           ]
         },
@@ -253,56 +256,56 @@
           ],
           "images": [
             {
-              "alt": "Week 2",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Magtard.jpg",
-              "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             }
           ]
         },
@@ -346,68 +349,68 @@
           ],
           "images": [
             {
-              "alt": "Week 3",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
-              "alt": "Week 3",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Standings.JPG",
-              "src": "/images/e0d00b_3d946ae9f3624b4d851f9a4a323e8059_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3d946ae9f3624b4d851f9a4a323e8059~mv2.jpg"
             },
             {
               "alt": "League Standings_edited_edited_edited.jp",
-              "src": "/images/e0d00b_12d67a891d114f1a9659b79c1387c178_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_12d67a891d114f1a9659b79c1387c178~mv2.jpg"
             },
             {
               "alt": "League Stats.JPG",
-              "src": "/images/e0d00b_bf72eae6ac0b4eab99c5c369ea0a1340_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bf72eae6ac0b4eab99c5c369ea0a1340~mv2.jpg"
             }
           ]
         },
@@ -451,68 +454,68 @@
           ],
           "images": [
             {
-              "alt": "Week 4",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
-              "alt": "Week 4",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Standings Week 4.JPG",
-              "src": "/images/e0d00b_a9183ff941f54d09a5196e71b1aab083_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a9183ff941f54d09a5196e71b1aab083~mv2.jpg"
             },
             {
               "alt": "ESPN Week 4 Standings.JPG",
-              "src": "/images/e0d00b_2c3cc0d33e364b119f7f563431b5b5ac_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_2c3cc0d33e364b119f7f563431b5b5ac~mv2.jpg"
             },
             {
               "alt": "ESPN Week 4 Stats.JPG",
-              "src": "/images/e0d00b_54b12cfdb63144e4ac70ff3562aa885b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_54b12cfdb63144e4ac70ff3562aa885b~mv2.jpg"
             }
           ]
         },
@@ -554,68 +557,68 @@
           ],
           "images": [
             {
-              "alt": "Week 5",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Standings Week 5.JPG",
-              "src": "/images/e0d00b_abaf648f95014fb68501b152b9678e85_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_abaf648f95014fb68501b152b9678e85~mv2.jpg"
             },
             {
               "alt": "ESPN Week 5 Standings.JPG",
-              "src": "/images/e0d00b_7f3cec7fe42340d6a6303278f827c1d3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7f3cec7fe42340d6a6303278f827c1d3~mv2.jpg"
             },
             {
               "alt": "ESPN Week 5 Stats.JPG",
-              "src": "/images/e0d00b_08ed3328a7174e44b9df8c1737868ab8_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_08ed3328a7174e44b9df8c1737868ab8~mv2.jpg"
             }
           ]
         },
@@ -659,68 +662,68 @@
           ],
           "images": [
             {
-              "alt": "Week 6",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "Week 6 ESPN Standings.JPG",
-              "src": "/images/e0d00b_5ea386958e4b4879a8df6c5fb49dca10_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_5ea386958e4b4879a8df6c5fb49dca10~mv2.jpg"
             },
             {
               "alt": "Week 6 league Standings.JPG",
-              "src": "/images/e0d00b_49d9122d0fed40cd823c3cc7c1745ec3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_49d9122d0fed40cd823c3cc7c1745ec3~mv2.jpg"
             },
             {
               "alt": "Week 6 league stats.JPG",
-              "src": "/images/e0d00b_ebceac8fd8d84d2ea8d775134367f03a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ebceac8fd8d84d2ea8d775134367f03a~mv2.jpg"
             }
           ]
         },
@@ -764,68 +767,68 @@
           ],
           "images": [
             {
-              "alt": "Week 7",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Week 7 league Standings.JPG",
-              "src": "/images/e0d00b_25f5419fed5c483589a80843b20523e3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_25f5419fed5c483589a80843b20523e3~mv2.jpg"
             },
             {
               "alt": "Week 7 league Standings.JPG",
-              "src": "/images/e0d00b_614bcffc66164b0f828c34ac8233c205_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_614bcffc66164b0f828c34ac8233c205~mv2.jpg"
             },
             {
               "alt": "Week 7 league Stats.JPG",
-              "src": "/images/e0d00b_4799e9d2d5244f079e9ffce34fec167d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4799e9d2d5244f079e9ffce34fec167d~mv2.jpg"
             }
           ]
         },
@@ -869,68 +872,68 @@
           ],
           "images": [
             {
-              "alt": "Week 8",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Week 8 league Standings.JPG",
-              "src": "/images/e0d00b_ca3c88849ef944a082ebf9fb82e35b65_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ca3c88849ef944a082ebf9fb82e35b65~mv2.jpg"
             },
             {
               "alt": "Week 8 league Standings.JPG",
-              "src": "/images/e0d00b_087c0bf479864a0bbea029752860149d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_087c0bf479864a0bbea029752860149d~mv2.jpg"
             },
             {
               "alt": "Week 8 league Stats.JPG",
-              "src": "/images/e0d00b_796145a87a9943c89b0fd1a2d7771af7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_796145a87a9943c89b0fd1a2d7771af7~mv2.jpg"
             }
           ]
         },
@@ -974,68 +977,68 @@
           ],
           "images": [
             {
-              "alt": "Week 9",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "ESPN Week 9 league Standings.JPG",
-              "src": "/images/e0d00b_6ed67b8ab1f849d0b472f101187a517a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_6ed67b8ab1f849d0b472f101187a517a~mv2.jpg"
             },
             {
               "alt": "Week 9 Standings.JPG",
-              "src": "/images/e0d00b_1f2757794b384f5c92314c68925eb9e5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_1f2757794b384f5c92314c68925eb9e5~mv2.jpg"
             },
             {
               "alt": "Week 9 Stats.JPG",
-              "src": "/images/e0d00b_292051260c334847a6f5af213f3ea79c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_292051260c334847a6f5af213f3ea79c~mv2.jpg"
             }
           ]
         },
@@ -1079,68 +1082,68 @@
           ],
           "images": [
             {
-              "alt": "Week 10",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Week 10 league Standings.JPG",
-              "src": "/images/e0d00b_7258fc7c771f4f52b23f519448ee5452_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7258fc7c771f4f52b23f519448ee5452~mv2.jpg"
             },
             {
               "alt": "Week 10 Standings.JPG",
-              "src": "/images/e0d00b_d99f4261b73f4cffa88c3f0d0ee700e3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d99f4261b73f4cffa88c3f0d0ee700e3~mv2.jpg"
             },
             {
               "alt": "Week 10 Stats.JPG",
-              "src": "/images/e0d00b_cfce8c156b824e0ea4edcb0d98c8ff27_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cfce8c156b824e0ea4edcb0d98c8ff27~mv2.jpg"
             }
           ]
         },
@@ -1184,68 +1187,68 @@
           ],
           "images": [
             {
-              "alt": "Week 11",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_3517fba50db8451c84214b315ff967b6_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3517fba50db8451c84214b315ff967b6~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN Week 11 league Standings.JPG",
-              "src": "/images/e0d00b_9216599e5f9b4a38afb9da7ec336a854_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9216599e5f9b4a38afb9da7ec336a854~mv2.jpg"
             },
             {
               "alt": "Week 11 league Standings.JPG",
-              "src": "/images/e0d00b_81501c9bba73432d91714885f7cf719b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_81501c9bba73432d91714885f7cf719b~mv2.jpg"
             },
             {
               "alt": "Week 11 league Stats.JPG",
-              "src": "/images/e0d00b_2b37456b4bcf4dceacbe76987a16bbef_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_2b37456b4bcf4dceacbe76987a16bbef~mv2.jpg"
             }
           ]
         },
@@ -1289,68 +1292,68 @@
           ],
           "images": [
             {
-              "alt": "Week 12",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Adrian_edited.jpg",
-              "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "ESPN League Standings.JPG",
-              "src": "/images/e0d00b_3a25e67caeb846b0aa4c86c93d916c82_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3a25e67caeb846b0aa4c86c93d916c82~mv2.jpg"
             },
             {
               "alt": "Week 12 league Standings.JPG",
-              "src": "/images/e0d00b_fa082bb5ae7d42f8a077fbc40f7feeaa_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_fa082bb5ae7d42f8a077fbc40f7feeaa~mv2.jpg"
             },
             {
               "alt": "Week 12 league Stats.JPG",
-              "src": "/images/e0d00b_426c3db4bea849e5ab6fa32a03a7b67c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_426c3db4bea849e5ab6fa32a03a7b67c~mv2.jpg"
             }
           ]
         },
@@ -1394,68 +1397,68 @@
           ],
           "images": [
             {
-              "alt": "Week 13",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "Adrian.jpg",
-              "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
             },
             {
               "alt": "ESPN Week 13 league Standings.JPG",
-              "src": "/images/e0d00b_92d084eab35f4b869e901f3e929a20f5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_92d084eab35f4b869e901f3e929a20f5~mv2.jpg"
             },
             {
               "alt": "Week 13 league Standings.JPG",
-              "src": "/images/e0d00b_c6e0a1fb411b46a694fe0fe27115e8a5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_c6e0a1fb411b46a694fe0fe27115e8a5~mv2.jpg"
             },
             {
               "alt": "Week 13 league Stats.JPG",
-              "src": "/images/e0d00b_ebb8aaef76774d8fb8a77cba3fe8dd81_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ebb8aaef76774d8fb8a77cba3fe8dd81~mv2.jpg"
             }
           ]
         },
@@ -1499,68 +1502,68 @@
           ],
           "images": [
             {
-              "alt": "Week 14",
-              "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
             },
             {
               "alt": "Jess.jpg",
-              "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
             },
             {
               "alt": "Liz.jpg",
-              "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
             },
             {
               "alt": "Ryan.jpg",
-              "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
             },
             {
               "alt": "Bekah_edited.jpg",
-              "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
             },
             {
               "alt": "Muddy Maggie_edited_edited.jpg",
-              "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Brin.jpg",
-              "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
             },
             {
               "alt": "Matte.jpg",
-              "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
             },
             {
               "alt": "Haley.jpg",
-              "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
             },
             {
               "alt": "Trevor.jpg",
-              "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
             },
             {
               "alt": "Better Gabe.jpg",
-              "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
             },
             {
               "alt": "Adrian.jpg",
-              "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
             },
             {
               "alt": "ESPN Week 14 league Standings.JPG",
-              "src": "/images/e0d00b_d71bf9e1f05048c8aa067afdfba315d2_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_d71bf9e1f05048c8aa067afdfba315d2~mv2.jpg"
             },
             {
               "alt": "Week 14 league Standings.JPG",
-              "src": "/images/e0d00b_976159ada3c64c83aa0fae0966c0df12_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_976159ada3c64c83aa0fae0966c0df12~mv2.jpg"
             },
             {
               "alt": "Week 14 league Stats.JPG",
-              "src": "/images/e0d00b_4c543719143e4044b78a097e79f10ca7_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4c543719143e4044b78a097e79f10ca7~mv2.jpg"
             }
           ]
         }
@@ -1610,51 +1613,51 @@
           "images": [
             {
               "alt": "IMG_9945_20240822_172903_edited.jpg",
-              "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
             },
             {
               "alt": "Attach130371_20240821_160234.jpg",
-              "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
             },
             {
               "alt": "Attach130555_20240822_170959.jpg",
-              "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
             },
             {
               "alt": "Attach130357_20240821_155116.jpg",
-              "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
             },
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "Attach130557_20240822_171313.jpg",
-              "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
             },
             {
               "alt": "Attach130369_20240821_160051_edited.jpg",
-              "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
             },
             {
               "alt": "Attach130360_20240821_155147.jpg",
-              "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
             },
             {
               "alt": "IMG_6800_20240822_173717.jpg",
-              "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
             },
             {
               "alt": "IMG_5951_20231219_082106.jpg",
-              "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "IMG_0180_20240822_172520.jpg",
-              "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
             }
           ]
         },
@@ -1696,51 +1699,51 @@
           "images": [
             {
               "alt": "Attach130555_20240822_170959.jpg",
-              "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
             },
             {
               "alt": "Attach130557_20240822_171313.jpg",
-              "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
             },
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "Attach130371_20240821_160234.jpg",
-              "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
             },
             {
               "alt": "Attach130357_20240821_155116.jpg",
-              "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
             },
             {
               "alt": "Attach130369_20240821_160051_edited.jpg",
-              "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
             },
             {
               "alt": "IMG_6800_20240822_173717.jpg",
-              "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
             },
             {
               "alt": "IMG_5951_20231219_082106.jpg",
-              "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
             },
             {
               "alt": "IMG_9945_20240822_172903_edited.jpg",
-              "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "Attach130360_20240821_155147.jpg",
-              "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
             },
             {
               "alt": "IMG_0180_20240822_172520.jpg",
-              "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
             }
           ]
         },
@@ -1781,56 +1784,56 @@
           ],
           "images": [
             {
-              "alt": "Second Quarter Recap (Weeks 5-8)",
-              "src": "/images/bc3ec7bc825c4e6ca746c659189cea83.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg"
             },
             {
               "alt": "Attach130555_20240822_170959.jpg",
-              "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
             },
             {
               "alt": "Attach130357_20240821_155116.jpg",
-              "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
             },
             {
               "alt": "Attach130557_20240822_171313.jpg",
-              "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
             },
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "IMG_9945_20240822_172903_edited.jpg",
-              "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
             },
             {
               "alt": "Attach130371_20240821_160234.jpg",
-              "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
             },
             {
               "alt": "Attach130369_20240821_160051_edited.jpg",
-              "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
             },
             {
               "alt": "IMG_5951_20231219_082106.jpg",
-              "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "IMG_6800_20240822_173717.jpg",
-              "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
             },
             {
               "alt": "IMG_0180_20240822_172520.jpg",
-              "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
             },
             {
               "alt": "Attach130360_20240821_155147.jpg",
-              "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
             }
           ]
         },
@@ -1871,56 +1874,56 @@
           ],
           "images": [
             {
-              "alt": "Regular Season Recap (Weeks 9-14)",
-              "src": "/images/bc3ec7bc825c4e6ca746c659189cea83.jpg"
+              "alt": "",
+              "src": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg"
             },
             {
               "alt": "Attach130357_20240821_155116.jpg",
-              "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
             },
             {
               "alt": "Attach130557_20240822_171313.jpg",
-              "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
             },
             {
               "alt": "Attach130369_20240821_160051_edited.jpg",
-              "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
             },
             {
               "alt": "Attach130555_20240822_170959.jpg",
-              "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
             },
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "IMG_0180_20240822_172520.jpg",
-              "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
             },
             {
               "alt": "Attach130360_20240821_155147.jpg",
-              "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
             },
             {
               "alt": "IMG_9945_20240822_172903_edited.jpg",
-              "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "IMG_6800_20240822_173717.jpg",
-              "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
             },
             {
               "alt": "IMG_5951_20231219_082106.jpg",
-              "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
             },
             {
               "alt": "Attach130371_20240821_160234.jpg",
-              "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
             }
           ]
         }
@@ -1970,51 +1973,51 @@
           "images": [
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "Brendan_edited.jpg",
-              "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
             },
             {
               "alt": "mAGGIE_edited.jpg",
-              "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
             },
             {
               "alt": "Debie Ryan_edited.jpg",
-              "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
             },
             {
               "alt": "Gabe_edited.jpg",
-              "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
             },
             {
               "alt": "Olivia_edited.jpg",
-              "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
             },
             {
               "alt": "clown.webp",
-              "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+              "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
             },
             {
               "alt": "Trevor_edited.jpg",
-              "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Jess_edited.jpg",
-              "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
             },
             {
               "alt": "Haley_edited.jpg",
-              "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
             }
           ]
         },
@@ -2056,51 +2059,51 @@
           "images": [
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "mAGGIE_edited.jpg",
-              "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
             },
             {
               "alt": "clown.webp",
-              "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+              "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Debie Ryan_edited.jpg",
-              "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "Olivia_edited.jpg",
-              "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
             },
             {
               "alt": "Jess_edited.jpg",
-              "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
             },
             {
               "alt": "Brendan_edited.jpg",
-              "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
             },
             {
               "alt": "Gabe_edited.jpg",
-              "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
             },
             {
               "alt": "Haley_edited.jpg",
-              "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
             },
             {
               "alt": "Trevor_edited.jpg",
-              "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
             }
           ]
         },
@@ -2142,51 +2145,51 @@
           "images": [
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "Gabe_edited.jpg",
-              "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "Max.jpg",
-              "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
             },
             {
               "alt": "Debie Ryan_edited.jpg",
-              "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
             },
             {
               "alt": "Brendan_edited.jpg",
-              "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
             },
             {
               "alt": "Haley_edited.jpg",
-              "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
             },
             {
               "alt": "clown.webp",
-              "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+              "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
             },
             {
               "alt": "mAGGIE_edited.jpg",
-              "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
             },
             {
               "alt": "Jess_edited.jpg",
-              "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
             },
             {
               "alt": "Olivia_edited.jpg",
-              "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
             },
             {
               "alt": "Trevor_edited.jpg",
-              "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
             }
           ]
         },
@@ -2227,51 +2230,51 @@
           "images": [
             {
               "alt": "700809148_20240821_165440~2.jpg",
-              "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
             },
             {
               "alt": "Screenshot_20240822-170654~2_edited.jpg",
-              "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
             },
             {
               "alt": "Haley_edited.jpg",
-              "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
             },
             {
               "alt": "clown.webp",
-              "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+              "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
             },
             {
               "alt": "Olivia_edited.jpg",
-              "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
             },
             {
               "alt": "mAGGIE_edited.jpg",
-              "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
             },
             {
               "alt": "Gabe_edited.jpg",
-              "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
             },
             {
               "alt": "Brendan_edited.jpg",
-              "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
             },
             {
               "alt": "Debie Ryan_edited.jpg",
-              "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
             },
             {
               "alt": "Jess_edited.jpg",
-              "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
             },
             {
               "alt": "IMG_0180_20240822_172520.jpg",
-              "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
             },
             {
               "alt": "Trevor_edited.jpg",
-              "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+              "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
             }
           ]
         }
@@ -2317,51 +2320,51 @@
       "images": [
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "Brendan_edited.jpg",
-          "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
         },
         {
           "alt": "mAGGIE_edited.jpg",
-          "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
         },
         {
           "alt": "Debie Ryan_edited.jpg",
-          "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
         },
         {
           "alt": "Gabe_edited.jpg",
-          "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
         },
         {
           "alt": "Olivia_edited.jpg",
-          "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
         },
         {
           "alt": "clown.webp",
-          "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+          "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
         },
         {
           "alt": "Trevor_edited.jpg",
-          "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Jess_edited.jpg",
-          "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
         },
         {
           "alt": "Haley_edited.jpg",
-          "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
         }
       ]
     },
@@ -2403,51 +2406,51 @@
       "images": [
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "mAGGIE_edited.jpg",
-          "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
         },
         {
           "alt": "clown.webp",
-          "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+          "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Debie Ryan_edited.jpg",
-          "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "Olivia_edited.jpg",
-          "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
         },
         {
           "alt": "Jess_edited.jpg",
-          "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
         },
         {
           "alt": "Brendan_edited.jpg",
-          "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
         },
         {
           "alt": "Gabe_edited.jpg",
-          "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
         },
         {
           "alt": "Haley_edited.jpg",
-          "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
         },
         {
           "alt": "Trevor_edited.jpg",
-          "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
         }
       ]
     },
@@ -2489,51 +2492,51 @@
       "images": [
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "Gabe_edited.jpg",
-          "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Debie Ryan_edited.jpg",
-          "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
         },
         {
           "alt": "Brendan_edited.jpg",
-          "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
         },
         {
           "alt": "Haley_edited.jpg",
-          "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
         },
         {
           "alt": "clown.webp",
-          "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+          "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
         },
         {
           "alt": "mAGGIE_edited.jpg",
-          "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
         },
         {
           "alt": "Jess_edited.jpg",
-          "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
         },
         {
           "alt": "Olivia_edited.jpg",
-          "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
         },
         {
           "alt": "Trevor_edited.jpg",
-          "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
         }
       ]
     },
@@ -2574,51 +2577,51 @@
       "images": [
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "Haley_edited.jpg",
-          "src": "/images/e0d00b_b1bd12e735544afd810ae1c39065a428_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b1bd12e735544afd810ae1c39065a428~mv2.jpg"
         },
         {
           "alt": "clown.webp",
-          "src": "/images/e0d00b_8de2f8b749fb4a9896999f21ae1645c1_mv2.webp"
+          "src": "https://static.wixstatic.com/media/e0d00b_8de2f8b749fb4a9896999f21ae1645c1~mv2.webp"
         },
         {
           "alt": "Olivia_edited.jpg",
-          "src": "/images/e0d00b_b78777e42f664c12897168b0e1baa959_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b78777e42f664c12897168b0e1baa959~mv2.jpg"
         },
         {
           "alt": "mAGGIE_edited.jpg",
-          "src": "/images/e0d00b_a4f38c543a6b4510aac5c275604ed11d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a4f38c543a6b4510aac5c275604ed11d~mv2.jpg"
         },
         {
           "alt": "Gabe_edited.jpg",
-          "src": "/images/e0d00b_443b685c7cf942429b4214cce98dec1d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_443b685c7cf942429b4214cce98dec1d~mv2.jpg"
         },
         {
           "alt": "Brendan_edited.jpg",
-          "src": "/images/e0d00b_7533ede34705404ab3e3dd658d11560d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7533ede34705404ab3e3dd658d11560d~mv2.jpg"
         },
         {
           "alt": "Debie Ryan_edited.jpg",
-          "src": "/images/e0d00b_9647b3d88427449fa7007ff361c62387_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9647b3d88427449fa7007ff361c62387~mv2.jpg"
         },
         {
           "alt": "Jess_edited.jpg",
-          "src": "/images/e0d00b_fc95101eca914d8d8f322cc0478cb2ac_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_fc95101eca914d8d8f322cc0478cb2ac~mv2.jpg"
         },
         {
           "alt": "IMG_0180_20240822_172520.jpg",
-          "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
         },
         {
           "alt": "Trevor_edited.jpg",
-          "src": "/images/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3a34ba1274b44e9cbe8e2e8c3a8be89a~mv2.jpg"
         }
       ]
     },
@@ -2660,51 +2663,51 @@
       "images": [
         {
           "alt": "IMG_9945_20240822_172903_edited.jpg",
-          "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
         },
         {
           "alt": "Attach130371_20240821_160234.jpg",
-          "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
         },
         {
           "alt": "Attach130555_20240822_170959.jpg",
-          "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
         },
         {
           "alt": "Attach130357_20240821_155116.jpg",
-          "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
         },
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "Attach130557_20240822_171313.jpg",
-          "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
         },
         {
           "alt": "Attach130369_20240821_160051_edited.jpg",
-          "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
         },
         {
           "alt": "Attach130360_20240821_155147.jpg",
-          "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
         },
         {
           "alt": "IMG_6800_20240822_173717.jpg",
-          "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
         },
         {
           "alt": "IMG_5951_20231219_082106.jpg",
-          "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "IMG_0180_20240822_172520.jpg",
-          "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
         }
       ]
     },
@@ -2746,51 +2749,51 @@
       "images": [
         {
           "alt": "Attach130555_20240822_170959.jpg",
-          "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
         },
         {
           "alt": "Attach130557_20240822_171313.jpg",
-          "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
         },
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "Attach130371_20240821_160234.jpg",
-          "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
         },
         {
           "alt": "Attach130357_20240821_155116.jpg",
-          "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
         },
         {
           "alt": "Attach130369_20240821_160051_edited.jpg",
-          "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
         },
         {
           "alt": "IMG_6800_20240822_173717.jpg",
-          "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
         },
         {
           "alt": "IMG_5951_20231219_082106.jpg",
-          "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
         },
         {
           "alt": "IMG_9945_20240822_172903_edited.jpg",
-          "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "Attach130360_20240821_155147.jpg",
-          "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
         },
         {
           "alt": "IMG_0180_20240822_172520.jpg",
-          "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
         }
       ]
     },
@@ -2831,56 +2834,56 @@
       ],
       "images": [
         {
-          "alt": "Second Quarter Recap (Weeks 5-8)",
-          "src": "/images/bc3ec7bc825c4e6ca746c659189cea83.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg"
         },
         {
           "alt": "Attach130555_20240822_170959.jpg",
-          "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
         },
         {
           "alt": "Attach130357_20240821_155116.jpg",
-          "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
         },
         {
           "alt": "Attach130557_20240822_171313.jpg",
-          "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
         },
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "IMG_9945_20240822_172903_edited.jpg",
-          "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
         },
         {
           "alt": "Attach130371_20240821_160234.jpg",
-          "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
         },
         {
           "alt": "Attach130369_20240821_160051_edited.jpg",
-          "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
         },
         {
           "alt": "IMG_5951_20231219_082106.jpg",
-          "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "IMG_6800_20240822_173717.jpg",
-          "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
         },
         {
           "alt": "IMG_0180_20240822_172520.jpg",
-          "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
         },
         {
           "alt": "Attach130360_20240821_155147.jpg",
-          "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
         }
       ]
     },
@@ -2921,56 +2924,56 @@
       ],
       "images": [
         {
-          "alt": "Regular Season Recap (Weeks 9-14)",
-          "src": "/images/bc3ec7bc825c4e6ca746c659189cea83.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg"
         },
         {
           "alt": "Attach130357_20240821_155116.jpg",
-          "src": "/images/e0d00b_ad608c571cbc4a0f8f73f76eb085822f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ad608c571cbc4a0f8f73f76eb085822f~mv2.jpg"
         },
         {
           "alt": "Attach130557_20240822_171313.jpg",
-          "src": "/images/e0d00b_6974c3661e144c77b81267da429e5996_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_6974c3661e144c77b81267da429e5996~mv2.jpg"
         },
         {
           "alt": "Attach130369_20240821_160051_edited.jpg",
-          "src": "/images/e0d00b_a5554ee928114feca57a294bd7cb3965_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a5554ee928114feca57a294bd7cb3965~mv2.jpg"
         },
         {
           "alt": "Attach130555_20240822_170959.jpg",
-          "src": "/images/e0d00b_4f32d74aa95243be9a58634b06c26844_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4f32d74aa95243be9a58634b06c26844~mv2.jpg"
         },
         {
           "alt": "700809148_20240821_165440~2.jpg",
-          "src": "/images/e0d00b_bb72215565184a36aa72cfb0781d4f9f_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bb72215565184a36aa72cfb0781d4f9f~mv2.jpg"
         },
         {
           "alt": "IMG_0180_20240822_172520.jpg",
-          "src": "/images/e0d00b_e2079f8e43e44ff58e2fd91add591b05_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_e2079f8e43e44ff58e2fd91add591b05~mv2.jpg"
         },
         {
           "alt": "Attach130360_20240821_155147.jpg",
-          "src": "/images/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_65d35dbbcc3d47779e9257d12b29bfbd~mv2.jpg"
         },
         {
           "alt": "IMG_9945_20240822_172903_edited.jpg",
-          "src": "/images/e0d00b_26bfdc51267a418399977e6dde9b7fe5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_26bfdc51267a418399977e6dde9b7fe5~mv2.jpg"
         },
         {
           "alt": "Screenshot_20240822-170654~2_edited.jpg",
-          "src": "/images/e0d00b_caed8a721f4b4f46a1a002860ebdeed3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_caed8a721f4b4f46a1a002860ebdeed3~mv2.jpg"
         },
         {
           "alt": "IMG_6800_20240822_173717.jpg",
-          "src": "/images/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_49e2e9d3a02d477694ed9f1eb2a6f5df~mv2.jpg"
         },
         {
           "alt": "IMG_5951_20231219_082106.jpg",
-          "src": "/images/e0d00b_10b32bd4c7044305b6af9d61742546fe_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_10b32bd4c7044305b6af9d61742546fe~mv2.jpg"
         },
         {
           "alt": "Attach130371_20240821_160234.jpg",
-          "src": "/images/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_773450ed1bda4b57bf49ad8264b3fd4b~mv2.jpg"
         }
       ]
     },
@@ -3010,56 +3013,56 @@
       ],
       "images": [
         {
-          "alt": "Post Draft Rankings",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
-          "alt": "Post Draft Rankings",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
-          "alt": "Post Draft Rankings",
-          "src": "/images/e0d00b_14d17900e7644bfcaf740791ce7b2e9e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_14d17900e7644bfcaf740791ce7b2e9e~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
-          "alt": "Post Draft Rankings",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Magtard.jpg",
-          "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         }
       ]
     },
@@ -3100,56 +3103,56 @@
       ],
       "images": [
         {
-          "alt": "Week 1",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Adrian.jpg",
-          "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Bekah.jpg",
-          "src": "/images/e0d00b_8a90c19847304583b91e310abf900135_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8a90c19847304583b91e310abf900135~mv2.jpg"
         },
         {
           "alt": "Magtard.jpg",
-          "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Gabe_edited.jpg",
-          "src": "/images/e0d00b_14d17900e7644bfcaf740791ce7b2e9e_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_14d17900e7644bfcaf740791ce7b2e9e~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         }
       ]
     },
@@ -3190,56 +3193,56 @@
       ],
       "images": [
         {
-          "alt": "Week 2",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Magtard.jpg",
-          "src": "/images/e0d00b_3345b52ea121477a9d92641ecc26a6ab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3345b52ea121477a9d92641ecc26a6ab~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         }
       ]
     },
@@ -3283,68 +3286,68 @@
       ],
       "images": [
         {
-          "alt": "Week 3",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
-          "alt": "Week 3",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Standings.JPG",
-          "src": "/images/e0d00b_3d946ae9f3624b4d851f9a4a323e8059_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3d946ae9f3624b4d851f9a4a323e8059~mv2.jpg"
         },
         {
           "alt": "League Standings_edited_edited_edited.jp",
-          "src": "/images/e0d00b_12d67a891d114f1a9659b79c1387c178_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_12d67a891d114f1a9659b79c1387c178~mv2.jpg"
         },
         {
           "alt": "League Stats.JPG",
-          "src": "/images/e0d00b_bf72eae6ac0b4eab99c5c369ea0a1340_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_bf72eae6ac0b4eab99c5c369ea0a1340~mv2.jpg"
         }
       ]
     },
@@ -3388,68 +3391,68 @@
       ],
       "images": [
         {
-          "alt": "Week 4",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
-          "alt": "Week 4",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Standings Week 4.JPG",
-          "src": "/images/e0d00b_a9183ff941f54d09a5196e71b1aab083_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a9183ff941f54d09a5196e71b1aab083~mv2.jpg"
         },
         {
           "alt": "ESPN Week 4 Standings.JPG",
-          "src": "/images/e0d00b_2c3cc0d33e364b119f7f563431b5b5ac_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_2c3cc0d33e364b119f7f563431b5b5ac~mv2.jpg"
         },
         {
           "alt": "ESPN Week 4 Stats.JPG",
-          "src": "/images/e0d00b_54b12cfdb63144e4ac70ff3562aa885b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_54b12cfdb63144e4ac70ff3562aa885b~mv2.jpg"
         }
       ]
     },
@@ -3491,68 +3494,68 @@
       ],
       "images": [
         {
-          "alt": "Week 5",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Standings Week 5.JPG",
-          "src": "/images/e0d00b_abaf648f95014fb68501b152b9678e85_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_abaf648f95014fb68501b152b9678e85~mv2.jpg"
         },
         {
           "alt": "ESPN Week 5 Standings.JPG",
-          "src": "/images/e0d00b_7f3cec7fe42340d6a6303278f827c1d3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7f3cec7fe42340d6a6303278f827c1d3~mv2.jpg"
         },
         {
           "alt": "ESPN Week 5 Stats.JPG",
-          "src": "/images/e0d00b_08ed3328a7174e44b9df8c1737868ab8_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_08ed3328a7174e44b9df8c1737868ab8~mv2.jpg"
         }
       ]
     },
@@ -3596,68 +3599,68 @@
       ],
       "images": [
         {
-          "alt": "Week 6",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "Week 6 ESPN Standings.JPG",
-          "src": "/images/e0d00b_5ea386958e4b4879a8df6c5fb49dca10_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_5ea386958e4b4879a8df6c5fb49dca10~mv2.jpg"
         },
         {
           "alt": "Week 6 league Standings.JPG",
-          "src": "/images/e0d00b_49d9122d0fed40cd823c3cc7c1745ec3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_49d9122d0fed40cd823c3cc7c1745ec3~mv2.jpg"
         },
         {
           "alt": "Week 6 league stats.JPG",
-          "src": "/images/e0d00b_ebceac8fd8d84d2ea8d775134367f03a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ebceac8fd8d84d2ea8d775134367f03a~mv2.jpg"
         }
       ]
     },
@@ -3701,68 +3704,68 @@
       ],
       "images": [
         {
-          "alt": "Week 7",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Week 7 league Standings.JPG",
-          "src": "/images/e0d00b_25f5419fed5c483589a80843b20523e3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_25f5419fed5c483589a80843b20523e3~mv2.jpg"
         },
         {
           "alt": "Week 7 league Standings.JPG",
-          "src": "/images/e0d00b_614bcffc66164b0f828c34ac8233c205_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_614bcffc66164b0f828c34ac8233c205~mv2.jpg"
         },
         {
           "alt": "Week 7 league Stats.JPG",
-          "src": "/images/e0d00b_4799e9d2d5244f079e9ffce34fec167d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4799e9d2d5244f079e9ffce34fec167d~mv2.jpg"
         }
       ]
     },
@@ -3806,68 +3809,68 @@
       ],
       "images": [
         {
-          "alt": "Week 8",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Week 8 league Standings.JPG",
-          "src": "/images/e0d00b_ca3c88849ef944a082ebf9fb82e35b65_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ca3c88849ef944a082ebf9fb82e35b65~mv2.jpg"
         },
         {
           "alt": "Week 8 league Standings.JPG",
-          "src": "/images/e0d00b_087c0bf479864a0bbea029752860149d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_087c0bf479864a0bbea029752860149d~mv2.jpg"
         },
         {
           "alt": "Week 8 league Stats.JPG",
-          "src": "/images/e0d00b_796145a87a9943c89b0fd1a2d7771af7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_796145a87a9943c89b0fd1a2d7771af7~mv2.jpg"
         }
       ]
     },
@@ -3911,68 +3914,68 @@
       ],
       "images": [
         {
-          "alt": "Week 9",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "ESPN Week 9 league Standings.JPG",
-          "src": "/images/e0d00b_6ed67b8ab1f849d0b472f101187a517a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_6ed67b8ab1f849d0b472f101187a517a~mv2.jpg"
         },
         {
           "alt": "Week 9 Standings.JPG",
-          "src": "/images/e0d00b_1f2757794b384f5c92314c68925eb9e5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_1f2757794b384f5c92314c68925eb9e5~mv2.jpg"
         },
         {
           "alt": "Week 9 Stats.JPG",
-          "src": "/images/e0d00b_292051260c334847a6f5af213f3ea79c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_292051260c334847a6f5af213f3ea79c~mv2.jpg"
         }
       ]
     },
@@ -4016,68 +4019,68 @@
       ],
       "images": [
         {
-          "alt": "Week 10",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Week 10 league Standings.JPG",
-          "src": "/images/e0d00b_7258fc7c771f4f52b23f519448ee5452_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_7258fc7c771f4f52b23f519448ee5452~mv2.jpg"
         },
         {
           "alt": "Week 10 Standings.JPG",
-          "src": "/images/e0d00b_d99f4261b73f4cffa88c3f0d0ee700e3_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d99f4261b73f4cffa88c3f0d0ee700e3~mv2.jpg"
         },
         {
           "alt": "Week 10 Stats.JPG",
-          "src": "/images/e0d00b_cfce8c156b824e0ea4edcb0d98c8ff27_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cfce8c156b824e0ea4edcb0d98c8ff27~mv2.jpg"
         }
       ]
     },
@@ -4121,68 +4124,68 @@
       ],
       "images": [
         {
-          "alt": "Week 11",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_3517fba50db8451c84214b315ff967b6_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3517fba50db8451c84214b315ff967b6~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN Week 11 league Standings.JPG",
-          "src": "/images/e0d00b_9216599e5f9b4a38afb9da7ec336a854_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9216599e5f9b4a38afb9da7ec336a854~mv2.jpg"
         },
         {
           "alt": "Week 11 league Standings.JPG",
-          "src": "/images/e0d00b_81501c9bba73432d91714885f7cf719b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_81501c9bba73432d91714885f7cf719b~mv2.jpg"
         },
         {
           "alt": "Week 11 league Stats.JPG",
-          "src": "/images/e0d00b_2b37456b4bcf4dceacbe76987a16bbef_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_2b37456b4bcf4dceacbe76987a16bbef~mv2.jpg"
         }
       ]
     },
@@ -4226,68 +4229,68 @@
       ],
       "images": [
         {
-          "alt": "Week 12",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Adrian_edited.jpg",
-          "src": "/images/e0d00b_a93b91a1f3ee48a1878cada31d52d54a_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a93b91a1f3ee48a1878cada31d52d54a~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "ESPN League Standings.JPG",
-          "src": "/images/e0d00b_3a25e67caeb846b0aa4c86c93d916c82_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_3a25e67caeb846b0aa4c86c93d916c82~mv2.jpg"
         },
         {
           "alt": "Week 12 league Standings.JPG",
-          "src": "/images/e0d00b_fa082bb5ae7d42f8a077fbc40f7feeaa_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_fa082bb5ae7d42f8a077fbc40f7feeaa~mv2.jpg"
         },
         {
           "alt": "Week 12 league Stats.JPG",
-          "src": "/images/e0d00b_426c3db4bea849e5ab6fa32a03a7b67c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_426c3db4bea849e5ab6fa32a03a7b67c~mv2.jpg"
         }
       ]
     },
@@ -4331,68 +4334,68 @@
       ],
       "images": [
         {
-          "alt": "Week 13",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "Adrian.jpg",
-          "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
         },
         {
           "alt": "ESPN Week 13 league Standings.JPG",
-          "src": "/images/e0d00b_92d084eab35f4b869e901f3e929a20f5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_92d084eab35f4b869e901f3e929a20f5~mv2.jpg"
         },
         {
           "alt": "Week 13 league Standings.JPG",
-          "src": "/images/e0d00b_c6e0a1fb411b46a694fe0fe27115e8a5_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_c6e0a1fb411b46a694fe0fe27115e8a5~mv2.jpg"
         },
         {
           "alt": "Week 13 league Stats.JPG",
-          "src": "/images/e0d00b_ebb8aaef76774d8fb8a77cba3fe8dd81_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_ebb8aaef76774d8fb8a77cba3fe8dd81~mv2.jpg"
         }
       ]
     },
@@ -4436,68 +4439,68 @@
       ],
       "images": [
         {
-          "alt": "Week 14",
-          "src": "/images/e0d00b_3659301470594364897fe8f64b3f752e_mv2.jpg"
+          "alt": "",
+          "src": "https://static.wixstatic.com/media/e0d00b_3659301470594364897fe8f64b3f752e~mv2.jpg"
         },
         {
           "alt": "Jess.jpg",
-          "src": "/images/e0d00b_be36cba1549f4dde93ac752e609f0445_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_be36cba1549f4dde93ac752e609f0445~mv2.jpg"
         },
         {
           "alt": "Liz.jpg",
-          "src": "/images/e0d00b_d50753c04b624509b8bcb281c17dbfab_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d50753c04b624509b8bcb281c17dbfab~mv2.jpg"
         },
         {
           "alt": "Ryan.jpg",
-          "src": "/images/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_8e144cbb3e0b43cba97c4aa47981a8e1~mv2.jpg"
         },
         {
           "alt": "Bekah_edited.jpg",
-          "src": "/images/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_f0aaac358c724c8b8b46c1991cf97cc7~mv2.jpg"
         },
         {
           "alt": "Muddy Maggie_edited_edited.jpg",
-          "src": "/images/e0d00b_273a22ef01d74d9b9663731477147530_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_273a22ef01d74d9b9663731477147530~mv2.jpg"
         },
         {
           "alt": "Max.jpg",
-          "src": "/images/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_a624be4f59e84b4f960b360fdc5cb4cc~mv2.jpg"
         },
         {
           "alt": "Brin.jpg",
-          "src": "/images/e0d00b_b976f98065d24f9aa0af9eab116ce5c4_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b976f98065d24f9aa0af9eab116ce5c4~mv2.jpg"
         },
         {
           "alt": "Matte.jpg",
-          "src": "/images/e0d00b_cc47617518a3416c8670c16c73a8cb1c_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cc47617518a3416c8670c16c73a8cb1c~mv2.jpg"
         },
         {
           "alt": "Haley.jpg",
-          "src": "/images/e0d00b_9b3b7621558648aca5a706f2f039a528_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9b3b7621558648aca5a706f2f039a528~mv2.jpg"
         },
         {
           "alt": "Trevor.jpg",
-          "src": "/images/e0d00b_cbbd185485174b57b3660d2418bb514d_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_cbbd185485174b57b3660d2418bb514d~mv2.jpg"
         },
         {
           "alt": "Better Gabe.jpg",
-          "src": "/images/e0d00b_9ace6a016e13431bb1cd21e032aff2a2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_9ace6a016e13431bb1cd21e032aff2a2~mv2.jpg"
         },
         {
           "alt": "Adrian.jpg",
-          "src": "/images/e0d00b_b24839bac2214d9abda8a0b53139eb0b_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_b24839bac2214d9abda8a0b53139eb0b~mv2.jpg"
         },
         {
           "alt": "ESPN Week 14 league Standings.JPG",
-          "src": "/images/e0d00b_d71bf9e1f05048c8aa067afdfba315d2_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_d71bf9e1f05048c8aa067afdfba315d2~mv2.jpg"
         },
         {
           "alt": "Week 14 league Standings.JPG",
-          "src": "/images/e0d00b_976159ada3c64c83aa0fae0966c0df12_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_976159ada3c64c83aa0fae0966c0df12~mv2.jpg"
         },
         {
           "alt": "Week 14 league Stats.JPG",
-          "src": "/images/e0d00b_4c543719143e4044b78a097e79f10ca7_mv2.jpg"
+          "src": "https://static.wixstatic.com/media/e0d00b_4c543719143e4044b78a097e79f10ca7~mv2.jpg"
         }
       ]
     }

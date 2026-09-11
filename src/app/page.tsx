@@ -42,7 +42,6 @@ export default function HomePage() {
                     fill
                     className="object-cover transition duration-500 group-hover:scale-[1.03]"
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    unoptimized
                   />
                 </div>
               ) : (

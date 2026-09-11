@@ -20,14 +20,13 @@ export function PostContent({ post }: { post: Post }) {
 
       {hero ? (
         <div className="relative mt-8 aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-panel">
-          <Image
-            src={hero.src}
-            alt={filter(hero.alt || post.title)}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 768px"
-            unoptimized
-          />
+                  <Image
+                    src={hero.src}
+                    alt={filter(hero.alt || post.title)}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 768px"
+                  />
         </div>
       ) : null}
 
@@ -66,7 +65,6 @@ export function PostContent({ post }: { post: Post }) {
                 fill
                 className="object-cover"
                 sizes="200px"
-                unoptimized
               />
             </div>
           ))}
