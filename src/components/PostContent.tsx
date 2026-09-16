@@ -2,74 +2,88 @@
 
 import Image from "next/image";
 import { useSafeMode } from "@/components/SafeModeProvider";
+import { RankingPhoto } from "@/components/RankingPhoto";
 import type { Post } from "@/lib/content";
+import { parsePost } from "@/lib/rankings";
 
 export function PostContent({ post }: { post: Post }) {
   const { filter } = useSafeMode();
-  const hero = post.images[0];
-  const gallery = post.images.slice(1, 9);
+  const { intro, rankings } = parsePost(post);
 
   return (
-    <article className="mx-auto w-[min(100%-1.5rem,48rem)] py-10">
-      <p className="mb-3 text-xs font-bold tracking-[0.18em] text-accent uppercase">
-        {post.season} season
-      </p>
-      <h1 className="font-[family-name:var(--font-display)] text-4xl leading-none tracking-wide text-ink sm:text-6xl">
-        {filter(post.title)}
-      </h1>
-
-      {hero ? (
-        <div className="relative mt-8 aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-panel">
-                  <Image
-                    src={hero.src}
-                    alt={filter(hero.alt || post.title)}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 768px"
-                  />
+    <article>
+      <header className="border-b border-line bg-mint">
+        <div className="mx-auto w-[min(100%-1.5rem,72rem)] py-14 text-center sm:py-20">
+          <p className="mb-5 text-xs font-semibold tracking-[0.2em] text-ink/70 uppercase">
+            {post.season} season
+          </p>
+          <h1 className="italic-shadow font-[family-name:var(--font-display)] text-[clamp(2.6rem,8vw,6.2rem)] leading-[0.92] italic">
+            {filter(post.title)}
+          </h1>
         </div>
-      ) : null}
+      </header>
 
-      <div className="mt-8 space-y-5 text-[1.05rem] leading-7 text-[#d9d4c8]">
-        {post.blocks.map((block, i) => {
-          const text = filter(block);
-          const isRankHeader = /^\d+\.\s/.test(block.trim()) || /^#?\d+\s/.test(block.trim());
-          if (isRankHeader) {
-            return (
-              <h2
-                key={i}
-                className="pt-4 font-[family-name:var(--font-display)] text-2xl tracking-wide text-accent sm:text-3xl"
-              >
-                {text}
-              </h2>
-            );
-          }
-          return (
+      {intro.length > 0 ? (
+        <div className="mx-auto w-[min(100%-1.5rem,46rem)] space-y-5 py-12 text-center text-[1.08rem] leading-8 text-ink/90">
+          {intro.map((block, i) => (
             <p key={i} className="whitespace-pre-wrap">
-              {text}
+              {filter(block)}
             </p>
-          );
-        })}
-      </div>
-
-      {gallery.length > 0 ? (
-        <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {gallery.map((img) => (
-            <div
-              key={img.src}
-              className="relative aspect-square overflow-hidden rounded-xl border border-line bg-panel"
-            >
-              <Image
-                src={img.src}
-                alt={filter(img.alt)}
-                fill
-                className="object-cover"
-                sizes="200px"
-              />
-            </div>
           ))}
         </div>
       ) : null}
+
+      {rankings.length > 0 ? (
+        <div>
+          {rankings.map((entry, index) => {
+            const photoLeft = index % 2 === 0;
+            return (
+              <section
+                key={`${entry.rank}-${entry.title}`}
+                className="overflow-hidden border-t border-line bg-panel px-5 py-10 sm:px-8 md:px-12"
+              >
+                {entry.image ? (
+                  <RankingPhoto
+                    year={post.season}
+                    title={entry.title}
+                    src={entry.image.src}
+                    alt={filter(entry.image.alt || entry.title)}
+                    photoLeft={photoLeft}
+                  />
+                ) : null}
+                <h2 className="text-center font-[family-name:var(--font-display)] text-3xl leading-[1.12] sm:text-5xl">
+                  {filter(`${entry.rank}. ${entry.title}`)}
+                </h2>
+                {entry.stats.length > 0 ? (
+                  <dl className="mt-4 space-y-1 text-center text-[1.12rem] font-semibold leading-7 text-ink sm:text-xl">
+                    {entry.stats.map((stat) => (
+                      <div key={stat.label}>
+                        <dt className="inline">{filter(stat.label)}: </dt>
+                        <dd className="inline">{filter(stat.value)}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                ) : null}
+                <div className="mt-6 space-y-4 text-center text-[1.05rem] leading-7 text-ink/90">
+                  {entry.body.map((block, i) => (
+                    <p key={i} className="whitespace-pre-wrap">
+                      {filter(block)}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="mx-auto w-[min(100%-1.5rem,46rem)] space-y-5 py-10 text-center text-[1.08rem] leading-8">
+          {post.blocks.map((block, i) => (
+            <p key={i} className="whitespace-pre-wrap">
+              {filter(block)}
+            </p>
+          ))}
+        </div>
+      )}
     </article>
   );
 }

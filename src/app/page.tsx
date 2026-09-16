@@ -3,86 +3,75 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useSafeMode } from "@/components/SafeModeProvider";
-import { site } from "@/lib/content";
+import { HOME_RECAPS, MARBLE, RECAP_COVERS } from "@/lib/covers";
 
 export default function HomePage() {
   const { filter } = useSafeMode();
 
   return (
     <div>
-      <section className="mx-auto w-[min(100%-1.5rem,72rem)] py-12 sm:py-16">
-        <p className="text-xs font-bold tracking-[0.2em] text-accent uppercase">Live season · 2025</p>
-        <h1 className="mt-3 max-w-4xl font-[family-name:var(--font-display)] text-5xl leading-[0.95] tracking-wide sm:text-7xl">
-          {filter(site.tagline)}
-        </h1>
-        <p className="mt-5 max-w-2xl text-lg text-muted">{filter(site.subtitle)}</p>
+      <section className="relative overflow-hidden border-b border-line">
+        <Image
+          src={MARBLE}
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="relative mx-auto flex min-h-[58vh] w-[min(100%-1.5rem,72rem)] flex-col items-center justify-center px-2 py-16 text-center sm:min-h-[70vh]">
+          <h1 className="outline-title font-[family-name:var(--font-display)] text-[clamp(1.85rem,6.4vw,4.6rem)] leading-[0.95] font-bold tracking-[0.06em] uppercase">
+            {filter("Welcome to the Biggest Shitshow on the West Coast")}
+          </h1>
+          <p className="mt-8 max-w-3xl text-[0.72rem] font-semibold tracking-[0.18em] text-ink/80 uppercase sm:text-xs">
+            {filter(
+              "The Seattle Seacocks Practice Squad's Ranking page Brought to you by your wonderful Commissioner, big dawg, little hog, Trevor Faust",
+            )}
+          </p>
+        </div>
       </section>
 
-      <section className="mx-auto w-[min(100%-1.5rem,72rem)] pb-8">
-        <div className="mb-4 flex items-end justify-between gap-3">
-          <h2 className="font-[family-name:var(--font-display)] text-3xl tracking-wide">
-            2025 Rankings
-          </h2>
-          <Link href="/2025" className="text-sm text-accent hover:underline">
-            Full season index →
-          </Link>
-        </div>
-        <div className="grid gap-4 md:grid-cols-2">
-          {site.homeCards.map((card) => (
+      <section>
+        {HOME_RECAPS.map((recap, index) => {
+          const image = RECAP_COVERS[recap.year];
+          const photoRight = index % 2 === 1;
+          return (
             <Link
-              key={card.href}
-              href={card.href}
-              className="group overflow-hidden rounded-2xl border border-line bg-panel transition hover:border-accent/40"
+              key={recap.href}
+              href={recap.href}
+              className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-bg-elev sm:min-h-[72vh] sm:grid-cols-2"
             >
-              {card.image ? (
-                <div className="relative aspect-[16/9] border-b border-line">
+              <div
+                className={`relative min-h-[42vh] bg-[#d8d4cc] sm:min-h-[72vh] ${
+                  photoRight ? "sm:order-2" : "sm:order-1"
+                }`}
+              >
+                {image ? (
                   <Image
-                    src={card.image}
-                    alt={filter(card.title)}
+                    src={image}
+                    alt={filter(recap.title)}
                     fill
-                    className="object-cover transition duration-500 group-hover:scale-[1.03]"
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover object-center transition duration-700 group-hover:scale-[1.03]"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    priority={index === 0}
                   />
-                </div>
-              ) : (
-                <div className="flex aspect-[16/9] items-end bg-gradient-to-br from-[#243028] to-[#141816] p-5">
-                  <span className="font-[family-name:var(--font-display)] text-4xl text-accent/80">
-                    {card.season}
-                  </span>
-                </div>
-              )}
-              <div className="p-5">
-                <h3 className="font-[family-name:var(--font-display)] text-3xl tracking-wide group-hover:text-accent">
-                  {filter(card.title)}
-                </h3>
-                <p className="mt-1 text-sm text-muted">{filter(card.subtitle)}</p>
+                ) : null}
+              </div>
+              <div
+                className={`flex flex-col justify-center bg-bg-elev px-8 py-12 sm:px-12 md:px-16 ${
+                  photoRight ? "sm:order-1" : "sm:order-2"
+                }`}
+              >
+                <h2 className="italic-shadow font-[family-name:var(--font-display)] text-4xl leading-[0.95] italic sm:text-6xl">
+                  {filter(recap.title)}
+                </h2>
+                <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
+                  {filter(recap.blurb)}
+                </p>
               </div>
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto grid w-[min(100%-1.5rem,72rem)] gap-4 py-10 md:grid-cols-2">
-        <Link
-          href="/2024"
-          className="rounded-2xl border border-line bg-bg-elev p-6 transition hover:border-accent/40"
-        >
-          <p className="text-xs font-bold tracking-[0.16em] text-accent uppercase">Archive</p>
-          <h2 className="mt-2 font-[family-name:var(--font-display)] text-4xl tracking-wide">
-            2024 Season Recap
-          </h2>
-          <p className="mt-3 text-muted">{filter(site.seasons["2024"].blurb)}</p>
-        </Link>
-        <Link
-          href="/2023"
-          className="rounded-2xl border border-line bg-bg-elev p-6 transition hover:border-accent/40"
-        >
-          <p className="text-xs font-bold tracking-[0.16em] text-accent uppercase">Archive</p>
-          <h2 className="mt-2 font-[family-name:var(--font-display)] text-4xl tracking-wide">
-            2023 Season Recap
-          </h2>
-          <p className="mt-3 text-muted">{filter(site.seasons["2023"].blurb)}</p>
-        </Link>
+          );
+        })}
       </section>
     </div>
   );

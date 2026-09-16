@@ -35,22 +35,24 @@ export default async function PostPage({
 
   return (
     <div>
-      <div className="mx-auto w-[min(100%-1.5rem,48rem)] pt-6">
-        <Link href={`/${year}`} className="text-sm text-accent hover:underline">
-          ← {season.title}
-        </Link>
+      <div className="border-b border-line bg-bg-elev">
+        <div className="mx-auto w-[min(100%-1.5rem,72rem)] py-4">
+          <Link href={`/${year}`} className="text-sm tracking-wide uppercase hover:underline">
+            ← {season.title}
+          </Link>
+        </div>
       </div>
       <PostContent post={post} />
-      <nav className="mx-auto flex w-[min(100%-1.5rem,48rem)] justify-between gap-4 border-t border-line py-8 text-sm">
+      <nav className="mx-auto flex w-[min(100%-1.5rem,72rem)] justify-between gap-4 border-t border-line py-8 text-sm">
         {prev ? (
-          <Link href={`/${year}/${prev.slug}`} className="text-muted hover:text-accent">
+          <Link href={`/${year}/${prev.slug}`} className="hover:underline">
             ← {prev.hubLabel}
           </Link>
         ) : (
           <span />
         )}
         {next ? (
-          <Link href={`/${year}/${next.slug}`} className="text-muted hover:text-accent">
+          <Link href={`/${year}/${next.slug}`} className="hover:underline">
             {next.hubLabel} →
           </Link>
         ) : null}

@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, DM_Sans } from "next/font/google";
+import { Playfair_Display, Source_Serif_4 } from "next/font/google";
 import { SafeModeProvider } from "@/components/SafeModeProvider";
+import { PhotoCropsProvider } from "@/components/PhotoCropsProvider";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/content";
 import "./globals.css";
 
-const display = Bebas_Neue({
-  weight: "400",
+const display = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-display",
+  style: ["normal", "italic"],
 });
 
-const body = DM_Sans({
+const body = Source_Serif_4({
   subsets: ["latin"],
   variable: "--font-body",
 });
@@ -29,11 +30,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${display.variable} ${body.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
         <SafeModeProvider>
-          <SiteHeader />
-          <main className="flex-1">{children}</main>
-          <footer className="border-t border-line py-6 text-center text-sm text-muted">
-            Commissioner editions · keep it honest · keep it messy
-          </footer>
+          <PhotoCropsProvider>
+            <SiteHeader />
+            <main className="flex-1">{children}</main>
+            <footer className="border-t border-line bg-mint/70 py-8 text-center text-sm text-muted">
+              If you&apos;re reading this bottom text, you a bitch
+            </footer>
+          </PhotoCropsProvider>
         </SafeModeProvider>
       </body>
     </html>

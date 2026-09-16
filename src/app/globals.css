@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0f1110;
-  --bg-elev: #171a18;
-  --panel: #1d221f;
-  --ink: #f3f0e8;
-  --muted: #a7b0a6;
-  --line: rgba(243, 240, 232, 0.12);
-  --accent: #c8f531;
-  --accent-2: #ff5a36;
-  --warn: #ffd166;
+  --bg: #f4f1ea;
+  --bg-elev: #fffdf8;
+  --mint: #cfeee0;
+  --panel: #ffffff;
+  --ink: #161616;
+  --muted: #4d4d4d;
+  --line: rgba(22, 22, 22, 0.12);
+  --accent: #161616;
+  --accent-2: #2f5d4a;
 }
 
 @theme inline {
   --color-bg: var(--bg);
   --color-bg-elev: var(--bg-elev);
+  --color-mint: var(--mint);
   --color-panel: var(--panel);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
@@ -36,12 +37,9 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(900px 500px at 10% -10%, rgba(200, 245, 49, 0.12), transparent 55%),
-    radial-gradient(700px 400px at 100% 0%, rgba(255, 90, 54, 0.1), transparent 50%),
-    var(--bg);
+  background: var(--bg);
   color: var(--ink);
-  font-family: var(--font-body), system-ui, sans-serif;
+  font-family: var(--font-body), Georgia, serif;
 }
 
 a {
@@ -49,6 +47,32 @@ a {
 }
 
 ::selection {
-  background: var(--accent);
+  background: var(--mint);
+  color: var(--ink);
+}
+
+.outline-title {
   color: #111;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff,
+    2px 3px 0 rgba(0, 0, 0, 0.28);
+}
+
+.italic-shadow {
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.85), 3px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ranking-photo-frame {
+  --crop-x: 50%;
+  --crop-y: 50%;
+  --crop-scale: 1;
+}
+
+.ranking-photo-frame img {
+  object-position: var(--crop-x) var(--crop-y);
+  transform: scale(var(--crop-scale));
+  transform-origin: center center;
 }
