@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useSafeMode } from "@/components/SafeModeProvider";
 import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 
@@ -10,12 +11,20 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-bg-elev/90 backdrop-blur-md">
-      <div className="mx-auto flex w-[min(100%-1.5rem,72rem)] items-center justify-between gap-3 py-3">
+      <div className="mx-auto flex w-[min(100%-1.5rem,72rem)] flex-wrap items-center justify-between gap-3 py-2">
         <Link
           href="/"
-          className="text-sm font-semibold tracking-[0.22em] uppercase"
+          className="flex min-h-11 shrink-0 items-center rounded-sm outline-offset-4 transition hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-ink"
         >
-          Home
+          <Image
+            src="/seattle-seacocks.png"
+            alt="Seattle Seacocks home"
+            width={716}
+            height={850}
+            className="h-12 w-auto sm:h-14"
+            sizes="56px"
+            priority
+          />
         </Link>
 
         <nav className="flex items-center gap-3 sm:gap-5">
