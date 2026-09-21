@@ -14,6 +14,7 @@ export const HOME_COVERS: Record<string, string> = {
 };
 
 export const RECAP_COVERS: Record<string, string> = {
+  "2026": "/covers/2026-post-draft.png",
   "2025": "/covers/2025-recap.png",
   "2024": "https://static.wixstatic.com/media/e0d00b_3013a2760f804aafb13261d1a44a29e5~mv2.avif",
   "2023": "https://static.wixstatic.com/media/e0d00b_6863c84dbe9249729cf0f1eeedae9877~mv2.jpg",
@@ -21,6 +22,7 @@ export const RECAP_COVERS: Record<string, string> = {
 
 /** Magazine covers from the Wix 2023/2024 recap hubs — not the first in-post portrait. */
 export const HUB_COVERS: Record<string, string> = {
+  "/2026/post-draft": "/covers/2026-post-draft.png",
   "/2024/lets-run-it-back":
     "https://static.wixstatic.com/media/e0d00b_7821cc435d9d4229ac9f3a06e456489d~mv2.png",
   "/2024/first-quarter":
@@ -62,6 +64,13 @@ export const HUB_COVERS: Record<string, string> = {
 };
 
 export const HOME_RECAPS = [
+  {
+    year: "2026",
+    href: "/2026",
+    title: "2026 Season",
+    blurb:
+      "New year, new draft, same circus. First installment is up — portraits and the full recap are coming.",
+  },
   {
     year: "2025",
     href: "/2025",

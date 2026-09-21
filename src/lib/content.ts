@@ -36,8 +36,26 @@ export type SiteContent = {
 };
 
 import raw from "@/content/site.json";
+import live from "@/content/live.json";
 
-export const site = raw as SiteContent;
+type LiveContent = {
+  seasons: Record<string, Season>;
+};
+
+function withLiveSeasons(base: SiteContent, extra: LiveContent): SiteContent {
+  const livePosts = Object.values(extra.seasons).flatMap((season) => season.posts);
+  return {
+    ...base,
+    seasons: { ...base.seasons, ...extra.seasons },
+    posts: [...base.posts, ...livePosts],
+  };
+}
+
+export const site = withLiveSeasons(raw as SiteContent, live);
+
+export function getSeasonYears() {
+  return Object.keys(site.seasons);
+}
 
 export function getSeason(year: number) {
   return site.seasons[String(year)];

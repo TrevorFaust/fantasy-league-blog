@@ -70,6 +70,7 @@ const PEOPLE = [
   "max",
   "olivia",
   "brody",
+  "jordan",
   "becca",
 ] as const;
 
@@ -87,6 +88,18 @@ const TEAM_ALIASES: Record<string, string> = {
   chromedomeclankers: "trevor",
   chromedomeclankershardr: "trevor",
   saquonthesenuts: "trevor",
+  bootyholebrowns: "brody",
+  likeagoodnaber: "katie",
+  laportapottyparty: "max",
+  babygotdak: "jess",
+  gaypeoplecantplayfootball: "gabe",
+  allmyopponentsgoofy: "maggie",
+  fondlethesefootballz: "brin",
+  fondlethesefootballs: "brin",
+  babychoda: "brendan",
+  jockstraps: "haley",
+  blowinmyjs: "jordan",
+  newpdogg: "olivia",
 };
 
 function compact(text: string) {

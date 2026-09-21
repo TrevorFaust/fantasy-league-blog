@@ -28,6 +28,9 @@ export function SiteHeader() {
         </Link>
 
         <nav className="flex items-center gap-3 sm:gap-5">
+          <Link className="text-sm text-muted hover:text-ink" href="/2026">
+            2026
+          </Link>
           <Link className="hidden text-sm text-muted hover:text-ink sm:inline" href="/2025">
             2025
           </Link>

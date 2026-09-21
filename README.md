@@ -11,8 +11,9 @@ npm run dev
 
 ## Content
 
-- Source of truth: `src/content/site.json`
-- Rebuild from a fresh Wix scrape: `npm run scrape && npm run content`
+- Historical seasons: `src/content/site.json` (rebuilt from the Wix scrape)
+- Current season (2026): `src/content/live.json`
+- Rebuild historical content from a fresh scrape: `npm run scrape && npm run content`
 
 ## Safe mode
 

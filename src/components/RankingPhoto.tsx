@@ -9,7 +9,7 @@ import { personKey, rankingPhotoFit } from "@/lib/rankings";
 type RankingPhotoProps = {
   year: number;
   title: string;
-  src: string;
+  src?: string;
   alt: string;
   photoLeft: boolean;
 };
@@ -21,6 +21,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
   const cropRef = useRef(crop);
   cropRef.current = crop;
   const pulledBack = rankingPhotoFit(title, alt) === "contain";
+  const canEdit = Boolean(src) && editing;
   const boxRef = useRef<HTMLDivElement>(null);
   const drag = useRef<{
     pointerId: number;
@@ -32,7 +33,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
 
   useEffect(() => {
     const box = boxRef.current;
-    if (!box || !editing) return;
+    if (!box || !canEdit) return;
     const onWheel = (event: WheelEvent) => {
       event.preventDefault();
       const current = cropRef.current;
@@ -43,7 +44,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
     };
     box.addEventListener("wheel", onWheel, { passive: false });
     return () => box.removeEventListener("wheel", onWheel);
-  }, [editing, key, setCrop]);
+  }, [canEdit, key, setCrop]);
 
   return (
     <div
@@ -52,17 +53,17 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
         pulledBack ? "aspect-[4/5]" : "aspect-[3/4]"
       } sm:mb-5 sm:w-[min(60%,38rem)] ${
         photoLeft ? "sm:float-left sm:mr-8" : "sm:float-right sm:ml-8"
-      } ${editing ? "cursor-grab touch-none ring-2 ring-ink/25 ring-offset-2 ring-offset-panel active:cursor-grabbing" : ""}`}
+      } ${canEdit ? "cursor-grab touch-none ring-2 ring-ink/25 ring-offset-2 ring-offset-panel active:cursor-grabbing" : ""}`}
       style={{
         ["--crop-x" as string]: `${crop.x}%`,
         ["--crop-y" as string]: `${crop.y}%`,
         ["--crop-scale" as string]: String(crop.scale),
       }}
-      role={editing ? "button" : undefined}
-      tabIndex={editing ? 0 : undefined}
-      aria-label={editing ? `Reframe ${title} for ${year}` : undefined}
+      role={canEdit ? "button" : undefined}
+      tabIndex={canEdit ? 0 : undefined}
+      aria-label={canEdit ? `Reframe ${title} for ${year}` : undefined}
       onPointerDown={(event) => {
-        if (!editing) return;
+        if (!canEdit) return;
         event.currentTarget.focus();
         event.currentTarget.setPointerCapture(event.pointerId);
         drag.current = {
@@ -74,7 +75,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
         };
       }}
       onPointerMove={(event) => {
-        if (!editing || !drag.current || drag.current.pointerId !== event.pointerId) return;
+        if (!canEdit || !drag.current || drag.current.pointerId !== event.pointerId) return;
         const box = event.currentTarget.getBoundingClientRect();
         const dx = ((event.clientX - drag.current.startX) / box.width) * 100;
         const dy = ((event.clientY - drag.current.startY) / box.height) * 100;
@@ -88,7 +89,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
         drag.current = null;
       }}
       onKeyDown={(event) => {
-        if (!editing) return;
+        if (!canEdit) return;
         const step = event.shiftKey ? 5 : 2;
         const current = cropRef.current;
         if (event.key === "ArrowLeft") {
@@ -112,15 +113,21 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
         }
       }}
     >
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        draggable={false}
-        className={`${pulledBack ? "object-contain p-3 sm:p-4" : "object-cover"} ${editing ? "pointer-events-none" : ""}`}
-        sizes="(max-width: 768px) 100vw, 60vw"
-      />
-      {editing ? (
+      {src ? (
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          draggable={false}
+          className={`${pulledBack ? "object-contain p-3 sm:p-4" : "object-cover"} ${canEdit ? "pointer-events-none" : ""}`}
+          sizes="(max-width: 768px) 100vw, 60vw"
+        />
+      ) : (
+        <div className="flex h-full items-center justify-center px-6 text-center text-sm font-semibold tracking-[0.16em] text-ink/45 uppercase">
+          Photo coming soon
+        </div>
+      )}
+      {canEdit ? (
         <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-ink/70 px-3 py-2 text-center text-[0.68rem] font-semibold tracking-[0.14em] text-bg-elev uppercase">
           Drag to reframe · scroll to zoom · {year} only
         </div>

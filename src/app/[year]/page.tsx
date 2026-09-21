@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import { SeasonHub } from "@/components/SeasonHub";
-import { getSeason } from "@/lib/content";
+import { getSeason, getSeasonYears } from "@/lib/content";
 
 export function generateStaticParams() {
-  return [{ year: "2023" }, { year: "2024" }, { year: "2025" }];
+  return getSeasonYears().map((year) => ({ year }));
 }
 
 export default async function SeasonPage({

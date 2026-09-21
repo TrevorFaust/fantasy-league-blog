@@ -42,12 +42,12 @@ export function PostContent({ post }: { post: Post }) {
                 key={`${entry.rank}-${entry.title}`}
                 className="overflow-hidden border-t border-line bg-panel px-5 py-10 sm:px-8 md:px-12"
               >
-                {entry.image ? (
+                {entry.image || post.images.length === 0 ? (
                   <RankingPhoto
                     year={post.season}
                     title={entry.title}
-                    src={entry.image.src}
-                    alt={filter(entry.image.alt || entry.title)}
+                    src={entry.image?.src}
+                    alt={filter(entry.image?.alt || entry.title)}
                     photoLeft={photoLeft}
                   />
                 ) : null}
