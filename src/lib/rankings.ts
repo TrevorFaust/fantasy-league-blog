@@ -213,5 +213,6 @@ export function parsePost(post: Post): ParsedPost {
   }
 
   assignImages(rankings, post.images);
+  rankings.sort((a, b) => b.rank - a.rank);
   return { intro, rankings };
 }
