@@ -18,8 +18,8 @@ import {
 } from "@/lib/photo-crops";
 
 type PhotoCropsContextValue = {
-  editing: boolean;
-  setEditing: (value: boolean) => void;
+  activeKey: string | null;
+  setActiveKey: (key: string | null) => void;
   getCrop: (key: string) => PhotoCrop;
   setCrop: (key: string, crop: PhotoCrop) => void;
 };
@@ -40,7 +40,7 @@ function writeLocal(crops: PhotoCropMap) {
 }
 
 export function PhotoCropsProvider({ children }: { children: ReactNode }) {
-  const [editing, setEditing] = useState(false);
+  const [activeKey, setActiveKey] = useState<string | null>(null);
   const [crops, setCrops] = useState<PhotoCropMap>({});
   const [ready, setReady] = useState(false);
   const cropsRef = useRef<PhotoCropMap>({});
@@ -66,6 +66,15 @@ export function PhotoCropsProvider({ children }: { children: ReactNode }) {
         /* keep local crops if the file has not been saved yet */
       });
   }, []);
+
+  useEffect(() => {
+    if (!activeKey) return;
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setActiveKey(null);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [activeKey]);
 
   const persist = useCallback((key: string, crop: PhotoCrop) => {
     window.clearTimeout(timers.current[key]);
@@ -98,8 +107,8 @@ export function PhotoCropsProvider({ children }: { children: ReactNode }) {
   );
 
   const value = useMemo(
-    () => ({ editing, setEditing, getCrop, setCrop }),
-    [editing, getCrop, setCrop],
+    () => ({ activeKey, setActiveKey, getCrop, setCrop }),
+    [activeKey, getCrop, setCrop],
   );
 
   return <PhotoCropsContext.Provider value={value}>{children}</PhotoCropsContext.Provider>;

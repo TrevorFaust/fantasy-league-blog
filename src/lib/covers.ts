@@ -97,8 +97,9 @@ export const HOME_RECAPS = [
 
 /** Live-season installments first, then finished-year recaps. */
 export function getHomeCards(): HomeCard[] {
-  const currentYear = Math.max(...Object.values(live.seasons).map((season) => season.year));
-  const posts = live.seasons[String(currentYear)]?.posts ?? [];
+  const liveSeasons = Object.values(live.seasons);
+  const currentYear = Math.max(...liveSeasons.map((season) => season.year));
+  const posts = liveSeasons.find((season) => season.year === currentYear)?.posts ?? [];
   const issues = [...posts]
     .sort((a, b) => b.order - a.order)
     .map((post) => {

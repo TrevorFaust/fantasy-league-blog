@@ -65,12 +65,14 @@ a {
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.85), 3px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
+.croppable-frame,
 .ranking-photo-frame {
   --crop-x: 50%;
   --crop-y: 50%;
   --crop-scale: 1;
 }
 
+.croppable-frame img,
 .ranking-photo-frame img {
   object-position: var(--crop-x) var(--crop-y);
   transform: scale(var(--crop-scale));

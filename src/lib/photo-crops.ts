@@ -12,6 +12,10 @@ export function cropKey(year: number, name: string) {
   return `${year}:${name}`;
 }
 
+export function coverCropKey(href: string) {
+  return `cover:${href}`;
+}
+
 export function clampCrop(crop: PhotoCrop): PhotoCrop {
   const round = (n: number) => Math.round(n * 10) / 10;
   return {

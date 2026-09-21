@@ -39,7 +39,20 @@
             "1. Bootyhole Browns (Brody)",
             "Recap coming soon."
           ],
-          "images": []
+          "images": [
+            { "alt": "Olivia", "src": "/images/2026/olivia.jpg" },
+            { "alt": "Jordan", "src": "/images/2026/jordan.jpg" },
+            { "alt": "Haley", "src": "/images/2026/haley.jpg" },
+            { "alt": "Brendan", "src": "/images/2026/brendan.jpg" },
+            { "alt": "Brin", "src": "/images/2026/brin.jpg" },
+            { "alt": "Maggie", "src": "/images/2026/maggie.jpg" },
+            { "alt": "Gabe", "src": "/images/2026/gabe.jpg" },
+            { "alt": "Jess", "src": "/images/2026/jess.jpg" },
+            { "alt": "Trevor", "src": "/images/2026/trevor.jpg" },
+            { "alt": "Max", "src": "/images/2026/max.jpg" },
+            { "alt": "Katie", "src": "/images/2026/katie.jpg" },
+            { "alt": "Brody", "src": "/images/2026/brody.jpg" }
+          ]
         }
       ]
     }

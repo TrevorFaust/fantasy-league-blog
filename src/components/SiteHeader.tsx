@@ -3,11 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useSafeMode } from "@/components/SafeModeProvider";
-import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 
 export function SiteHeader() {
   const { safe, setSafe } = useSafeMode();
-  const { editing, setEditing } = usePhotoCrops();
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-bg-elev/90 backdrop-blur-md">
@@ -42,18 +40,6 @@ export function SiteHeader() {
           </Link>
           <button
             type="button"
-            onClick={() => setEditing(!editing)}
-            className={`rounded-full border px-3 py-1.5 text-xs font-semibold tracking-wide uppercase transition ${
-              editing
-                ? "border-ink bg-ink text-bg-elev"
-                : "border-line bg-panel text-muted hover:text-ink"
-            }`}
-            title="Drag photos to reframe. A change for one person applies to every recap in that year."
-          >
-            {editing ? "Crops on" : "Adjust crops"}
-          </button>
-          <button
-            type="button"
             onClick={() => setSafe(!safe)}
             className={`rounded-full border px-3 py-1.5 text-xs font-semibold tracking-wide uppercase transition ${
               safe
@@ -66,11 +52,6 @@ export function SiteHeader() {
           </button>
         </nav>
       </div>
-      {editing ? (
-        <p className="border-t border-line bg-mint px-4 py-2 text-center text-xs text-ink/80">
-          Drag a photo to reframe it, scroll on it to zoom. A Trevor crop in 2024 updates every 2024 recap — other years stay put.
-        </p>
-      ) : null}
     </header>
   );
 }

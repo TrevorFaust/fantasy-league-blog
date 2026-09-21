@@ -2,13 +2,17 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { CroppableImage } from "@/components/CroppableImage";
+import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 import { useSafeMode } from "@/components/SafeModeProvider";
 import { getHomeCards, MARBLE } from "@/lib/covers";
+import { coverCropKey } from "@/lib/photo-crops";
 
 const HOME_CARDS = getHomeCards();
 
 export default function HomePage() {
   const { filter } = useSafeMode();
+  const { activeKey } = usePhotoCrops();
 
   return (
     <div>
@@ -40,6 +44,9 @@ export default function HomePage() {
             <Link
               key={card.href}
               href={card.href}
+              onClick={(event) => {
+                if (activeKey) event.preventDefault();
+              }}
               className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-bg-elev sm:min-h-[72vh] sm:grid-cols-2"
             >
               <div
@@ -48,13 +55,13 @@ export default function HomePage() {
                 }`}
               >
                 {card.image ? (
-                  <Image
+                  <CroppableImage
+                    cropKey={coverCropKey(card.href)}
                     src={card.image}
                     alt={filter(card.title)}
-                    fill
-                    className="object-cover object-center transition duration-700 group-hover:scale-[1.03]"
                     sizes="(max-width: 640px) 100vw, 50vw"
                     priority={index === 0}
+                    activate="button"
                   />
                 ) : null}
               </div>

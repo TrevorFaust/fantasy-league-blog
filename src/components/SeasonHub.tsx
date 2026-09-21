@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { CroppableImage } from "@/components/CroppableImage";
+import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 import { useSafeMode } from "@/components/SafeModeProvider";
 import type { Season } from "@/lib/content";
 import { HOME_COVERS, HOME_RECAPS, HUB_COVERS } from "@/lib/covers";
+import { coverCropKey } from "@/lib/photo-crops";
 
 function coverFor(href: string) {
   return HUB_COVERS[href] ?? HOME_COVERS[href];
@@ -20,6 +22,7 @@ function recapCopy(season: Season) {
 
 export function SeasonHub({ season }: { season: Season }) {
   const { filter } = useSafeMode();
+  const { activeKey } = usePhotoCrops();
   const { title, blurb } = recapCopy(season);
 
   return (
@@ -56,19 +59,25 @@ export function SeasonHub({ season }: { season: Season }) {
           const photoRight = index % 2 === 1;
           return (
             <li key={post.slug}>
-              <Link href={href} className="group grid items-stretch bg-bg sm:grid-cols-2">
+              <Link
+                href={href}
+                onClick={(event) => {
+                  if (activeKey) event.preventDefault();
+                }}
+                className="group grid items-stretch bg-bg sm:grid-cols-2"
+              >
                 <div
                   className={`relative flex aspect-[16/10] items-center justify-center bg-bg ${
                     photoRight ? "sm:order-2" : "sm:order-1"
                   }`}
                 >
                   {image ? (
-                    <Image
+                    <CroppableImage
+                      cropKey={coverCropKey(href)}
                       src={image}
                       alt={filter(post.hubLabel)}
-                      fill
-                      className="object-contain"
                       sizes="(max-width: 768px) 100vw, 50vw"
+                      activate="button"
                     />
                   ) : null}
                 </div>
