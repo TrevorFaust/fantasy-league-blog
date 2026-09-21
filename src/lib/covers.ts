@@ -1,3 +1,5 @@
+import live from "@/content/live.json";
+
 /** Home and recap covers from the original Wix site — NFL stills, not league-mate portraits. */
 export const MARBLE =
   "https://static.wixstatic.com/media/bc3ec7bc825c4e6ca746c659189cea83.jpg";
@@ -14,7 +16,6 @@ export const HOME_COVERS: Record<string, string> = {
 };
 
 export const RECAP_COVERS: Record<string, string> = {
-  "2026": "/covers/2026-post-draft.png",
   "2025": "/covers/2025-recap.png",
   "2024": "https://static.wixstatic.com/media/e0d00b_3013a2760f804aafb13261d1a44a29e5~mv2.avif",
   "2023": "https://static.wixstatic.com/media/e0d00b_6863c84dbe9249729cf0f1eeedae9877~mv2.jpg",
@@ -63,14 +64,14 @@ export const HUB_COVERS: Record<string, string> = {
     "https://static.wixstatic.com/media/e0d00b_13aa9292336c43fb9e05089f0eab3e42~mv2.webp",
 };
 
+export type HomeCard = {
+  href: string;
+  title: string;
+  blurb: string;
+  image?: string;
+};
+
 export const HOME_RECAPS = [
-  {
-    year: "2026",
-    href: "/2026",
-    title: "2026 Season",
-    blurb:
-      "New year, new draft, same circus. First installment is up — portraits and the full recap are coming.",
-  },
   {
     year: "2025",
     href: "/2025",
@@ -93,6 +94,30 @@ export const HOME_RECAPS = [
       "Revisit the shitshow that was last year. You can frequently find Haley browsing here and reliving the glory days while you'll find Liz and Jess denying they had any part in this and we merely being strongarmed into participating",
   },
 ] as const;
+
+/** Live-season installments first, then finished-year recaps. */
+export function getHomeCards(): HomeCard[] {
+  const currentYear = Math.max(...Object.values(live.seasons).map((season) => season.year));
+  const posts = live.seasons[String(currentYear)]?.posts ?? [];
+  const issues = [...posts]
+    .sort((a, b) => b.order - a.order)
+    .map((post) => {
+      const href = `/${post.season}/${post.slug}`;
+      return {
+        href,
+        title: post.hubLabel,
+        blurb: post.title,
+        image: HUB_COVERS[href] ?? HOME_COVERS[href],
+      };
+    });
+  const recaps = HOME_RECAPS.map((recap) => ({
+    href: recap.href,
+    title: recap.title,
+    blurb: recap.blurb,
+    image: RECAP_COVERS[recap.year],
+  }));
+  return [...issues, ...recaps];
+}
 
 export function originalSrc(src: string) {
   return src.split("/v1/")[0];

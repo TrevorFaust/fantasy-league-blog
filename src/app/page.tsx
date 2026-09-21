@@ -3,7 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useSafeMode } from "@/components/SafeModeProvider";
-import { HOME_RECAPS, MARBLE, RECAP_COVERS } from "@/lib/covers";
+import { getHomeCards, MARBLE } from "@/lib/covers";
+
+const HOME_CARDS = getHomeCards();
 
 export default function HomePage() {
   const { filter } = useSafeMode();
@@ -32,13 +34,12 @@ export default function HomePage() {
       </section>
 
       <section>
-        {HOME_RECAPS.map((recap, index) => {
-          const image = RECAP_COVERS[recap.year];
+        {HOME_CARDS.map((card, index) => {
           const photoRight = index % 2 === 1;
           return (
             <Link
-              key={recap.href}
-              href={recap.href}
+              key={card.href}
+              href={card.href}
               className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-bg-elev sm:min-h-[72vh] sm:grid-cols-2"
             >
               <div
@@ -46,10 +47,10 @@ export default function HomePage() {
                   photoRight ? "sm:order-2" : "sm:order-1"
                 }`}
               >
-                {image ? (
+                {card.image ? (
                   <Image
-                    src={image}
-                    alt={filter(recap.title)}
+                    src={card.image}
+                    alt={filter(card.title)}
                     fill
                     className="object-cover object-center transition duration-700 group-hover:scale-[1.03]"
                     sizes="(max-width: 640px) 100vw, 50vw"
@@ -63,10 +64,10 @@ export default function HomePage() {
                 }`}
               >
                 <h2 className="italic-shadow font-[family-name:var(--font-display)] text-4xl leading-[0.95] italic sm:text-6xl">
-                  {filter(recap.title)}
+                  {filter(card.title)}
                 </h2>
                 <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
-                  {filter(recap.blurb)}
+                  {filter(card.blurb)}
                 </p>
               </div>
             </Link>

@@ -12,7 +12,7 @@ npm run dev
 ## Content
 
 - Historical seasons: `src/content/site.json` (rebuilt from the Wix scrape)
-- Current season (2026): `src/content/live.json`
+- Current season (2026) installments: `src/content/live.json` (also listed on the homepage until the year recap)
 - Rebuild historical content from a fresh scrape: `npm run scrape && npm run content`
 
 ## Safe mode

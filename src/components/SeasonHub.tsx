@@ -27,7 +27,9 @@ export function SeasonHub({ season }: { season: Season }) {
       <section className="relative border-b border-line bg-mint">
         <div className="relative mx-auto flex w-[min(100%-1.5rem,44rem)] flex-col items-center px-2 py-16 text-center sm:py-20">
           <p className="text-[0.68rem] font-semibold tracking-[0.32em] text-ink/55 uppercase">
-            Season recap
+            {HOME_RECAPS.some((recap) => recap.year === String(season.year))
+              ? "Season recap"
+              : "Current season"}
           </p>
           <div className="relative mt-4 px-3 pb-3">
             <span
