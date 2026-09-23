@@ -40,13 +40,11 @@ export default function HomePage() {
       <section>
         {HOME_CARDS.map((card, index) => {
           const photoRight = index % 2 === 1;
+          const key = coverCropKey(card.href);
+          const cropping = activeKey === key;
           return (
-            <Link
+            <article
               key={card.href}
-              href={card.href}
-              onClick={(event) => {
-                if (activeKey) event.preventDefault();
-              }}
               className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-bg-elev sm:min-h-[72vh] sm:grid-cols-2"
             >
               <div
@@ -56,7 +54,7 @@ export default function HomePage() {
               >
                 {card.image ? (
                   <CroppableImage
-                    cropKey={coverCropKey(card.href)}
+                    cropKey={key}
                     src={card.image}
                     alt={filter(card.title)}
                     sizes="(max-width: 640px) 100vw, 50vw"
@@ -64,8 +62,18 @@ export default function HomePage() {
                     activate="button"
                   />
                 ) : null}
+                <Link
+                  href={card.href}
+                  className={`absolute inset-0 z-[5] ${cropping ? "pointer-events-none" : ""}`}
+                  aria-label={filter(card.title)}
+                  tabIndex={cropping ? -1 : undefined}
+                  onClick={(event) => {
+                    if (cropping) event.preventDefault();
+                  }}
+                />
               </div>
-              <div
+              <Link
+                href={card.href}
                 className={`flex flex-col justify-center bg-bg-elev px-8 py-12 sm:px-12 md:px-16 ${
                   photoRight ? "sm:order-1" : "sm:order-2"
                 }`}
@@ -76,8 +84,8 @@ export default function HomePage() {
                 <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
                   {filter(card.blurb)}
                 </p>
-              </div>
-            </Link>
+              </Link>
+            </article>
           );
         })}
       </section>

@@ -57,15 +57,11 @@ export function SeasonHub({ season }: { season: Season }) {
           const href = `/${post.season}/${post.slug}`;
           const image = coverFor(href);
           const photoRight = index % 2 === 1;
+          const key = coverCropKey(href);
+          const cropping = activeKey === key;
           return (
             <li key={post.slug}>
-              <Link
-                href={href}
-                onClick={(event) => {
-                  if (activeKey) event.preventDefault();
-                }}
-                className="group grid items-stretch bg-bg sm:grid-cols-2"
-              >
+              <div className="group grid items-stretch bg-bg sm:grid-cols-2">
                 <div
                   className={`relative flex aspect-[16/10] items-center justify-center bg-bg ${
                     photoRight ? "sm:order-2" : "sm:order-1"
@@ -73,15 +69,25 @@ export function SeasonHub({ season }: { season: Season }) {
                 >
                   {image ? (
                     <CroppableImage
-                      cropKey={coverCropKey(href)}
+                      cropKey={key}
                       src={image}
                       alt={filter(post.hubLabel)}
                       sizes="(max-width: 768px) 100vw, 50vw"
                       activate="button"
                     />
                   ) : null}
+                  <Link
+                    href={href}
+                    className={`absolute inset-0 z-[5] ${cropping ? "pointer-events-none" : ""}`}
+                    aria-label={filter(post.hubLabel)}
+                    tabIndex={cropping ? -1 : undefined}
+                    onClick={(event) => {
+                      if (cropping) event.preventDefault();
+                    }}
+                  />
                 </div>
-                <div
+                <Link
+                  href={href}
                   className={`flex flex-col items-center justify-center bg-bg px-8 py-10 text-center ${
                     photoRight ? "sm:order-1" : "sm:order-2"
                   }`}
@@ -90,8 +96,8 @@ export function SeasonHub({ season }: { season: Season }) {
                     {filter(post.hubLabel)}
                   </h2>
                   <p className="mt-2 text-muted">{filter(post.title)}</p>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </li>
           );
         })}

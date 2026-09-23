@@ -17,10 +17,10 @@ export function coverCropKey(href: string) {
 }
 
 export function clampCrop(crop: PhotoCrop): PhotoCrop {
-  const round = (n: number) => Math.round(n * 10) / 10;
+  const round = (n: number) => Math.round(n * 100) / 100;
   return {
     x: round(Math.min(100, Math.max(0, crop.x))),
     y: round(Math.min(100, Math.max(0, crop.y))),
-    scale: round(Math.min(2.4, Math.max(1, crop.scale))),
+    scale: round(Math.min(3, Math.max(0.6, crop.scale))),
   };
 }

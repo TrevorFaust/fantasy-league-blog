@@ -71,10 +71,3 @@ a {
   --crop-y: 50%;
   --crop-scale: 1;
 }
-
-.croppable-frame img,
-.ranking-photo-frame img {
-  object-position: var(--crop-x) var(--crop-y);
-  transform: scale(var(--crop-scale));
-  transform-origin: center center;
-}
