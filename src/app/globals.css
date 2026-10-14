@@ -47,7 +47,7 @@ a {
 }
 
 ::selection {
-  background: var(--mint);
+  background: rgba(47, 93, 74, 0.28);
   color: var(--ink);
 }
 

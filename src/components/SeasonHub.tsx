@@ -39,14 +39,14 @@ export function SeasonHub({ season }: { season: Season }) {
               ? "Season recap"
               : "Current season"}
           </p>
-          <div className="relative mt-4 px-3 pb-3">
+          <div className="relative isolate mt-4 px-3 pb-3">
             <span
               aria-hidden
-              className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-ink/[0.06] italic select-none"
+              className="pointer-events-none absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-ink/[0.06] italic select-none"
             >
               {season.year}
             </span>
-            <h1 className="italic-shadow relative font-[family-name:var(--font-display)] text-[clamp(2.85rem,8.4vw,5.8rem)] leading-[1.12] italic">
+            <h1 className="italic-shadow relative z-0 font-[family-name:var(--font-display)] text-[clamp(2.85rem,8.4vw,5.8rem)] leading-[1.12] italic">
               {filter(title)}
             </h1>
           </div>
