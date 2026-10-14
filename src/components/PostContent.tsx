@@ -188,6 +188,21 @@ export function PostContent({ post }: { post: Post }) {
                 key={`${entry.rank}-${entry.title}`}
                 className="overflow-hidden border-t border-line bg-panel px-5 py-10 sm:px-8 md:px-12"
               >
+                <header className="mx-auto mb-8 w-full max-w-4xl text-center">
+                  <h2 className="font-[family-name:var(--font-display)] text-3xl leading-[1.12] sm:text-5xl">
+                    {filter(`${entry.rank}. ${entry.title}`)}
+                  </h2>
+                  {entry.stats.length > 0 ? (
+                    <dl className="mt-4 space-y-1 text-[1.12rem] font-semibold leading-7 text-ink sm:text-xl">
+                      {entry.stats.map((stat) => (
+                        <div key={stat.label}>
+                          <dt className="inline">{filter(stat.label)}: </dt>
+                          <dd className="inline">{filter(stat.value)}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  ) : null}
+                </header>
                 {entry.image || post.images.length === 0 ? (
                   <RankingPhoto
                     year={post.season}
@@ -196,19 +211,6 @@ export function PostContent({ post }: { post: Post }) {
                     alt={filter(entry.image?.alt || entry.title)}
                     photoLeft={photoLeft}
                   />
-                ) : null}
-                <h2 className="text-center font-[family-name:var(--font-display)] text-3xl leading-[1.12] sm:text-5xl">
-                  {filter(`${entry.rank}. ${entry.title}`)}
-                </h2>
-                {entry.stats.length > 0 ? (
-                  <dl className="mt-4 space-y-1 text-center text-[1.12rem] font-semibold leading-7 text-ink sm:text-xl">
-                    {entry.stats.map((stat) => (
-                      <div key={stat.label}>
-                        <dt className="inline">{filter(stat.label)}: </dt>
-                        <dd className="inline">{filter(stat.value)}</dd>
-                      </div>
-                    ))}
-                  </dl>
                 ) : null}
                 <div className="mt-6 space-y-4 text-center text-[1.05rem] leading-7 text-ink/90">
                   {(byRank.get(entry.rank) ?? []).map((slice) => (

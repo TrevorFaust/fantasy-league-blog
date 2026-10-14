@@ -76,7 +76,7 @@ export function SeasonHub({ season }: { season: Season }) {
                     <CroppableImage
                       cropKey={key}
                       src={image}
-                      alt={filter(post.hubLabel)}
+                      alt={filter(post.hubLabel).replace(/\n/g, " ")}
                       sizes="(max-width: 768px) 100vw, 50vw"
                       activate="button"
                     />
@@ -84,7 +84,7 @@ export function SeasonHub({ season }: { season: Season }) {
                   <Link
                     href={href}
                     className={`absolute inset-0 z-[5] ${cropping ? "pointer-events-none" : ""}`}
-                    aria-label={filter(post.hubLabel)}
+                    aria-label={filter(post.hubLabel).replace(/\n/g, " ")}
                     tabIndex={cropping ? -1 : undefined}
                     onClick={(event) => {
                       if (cropping) event.preventDefault();
@@ -98,7 +98,16 @@ export function SeasonHub({ season }: { season: Season }) {
                   }`}
                 >
                   <h2 className="font-[family-name:var(--font-display)] text-4xl italic group-hover:underline">
-                    {filter(post.hubLabel)}
+                    {filter(post.hubLabel)
+                      .split("\n")
+                      .map((line, lineIndex) => (
+                        <span
+                          key={lineIndex}
+                          className={lineIndex > 0 ? "mt-3 block text-2xl leading-snug sm:text-3xl" : "block"}
+                        >
+                          {line}
+                        </span>
+                      ))}
                   </h2>
                   <p className="mt-2 text-muted">{filter(post.title)}</p>
                 </Link>

@@ -56,7 +56,7 @@ export default function HomePage() {
                   <CroppableImage
                     cropKey={key}
                     src={card.image}
-                    alt={filter(card.title)}
+                    alt={filter(card.title).replace(/\n/g, " ")}
                     sizes="(max-width: 640px) 100vw, 50vw"
                     priority={index === 0}
                     activate="button"
@@ -65,7 +65,7 @@ export default function HomePage() {
                 <Link
                   href={card.href}
                   className={`absolute inset-0 z-[5] ${cropping ? "pointer-events-none" : ""}`}
-                  aria-label={filter(card.title)}
+                  aria-label={filter(card.title).replace(/\n/g, " ")}
                   tabIndex={cropping ? -1 : undefined}
                   onClick={(event) => {
                     if (cropping) event.preventDefault();
@@ -79,7 +79,16 @@ export default function HomePage() {
                 }`}
               >
                 <h2 className="italic-shadow font-[family-name:var(--font-display)] text-4xl leading-[0.95] italic sm:text-6xl">
-                  {filter(card.title)}
+                  {filter(card.title)
+                    .split("\n")
+                    .map((line, lineIndex) => (
+                      <span
+                        key={lineIndex}
+                        className={lineIndex > 0 ? "mt-4 block text-xl leading-snug sm:text-2xl" : "block"}
+                      >
+                        {line}
+                      </span>
+                    ))}
                 </h2>
                 <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
                   {filter(card.blurb)}
