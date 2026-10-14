@@ -17,10 +17,10 @@ export default function HomePage() {
   return (
     <div>
       <MarbleBanner priority>
-        <div className="mx-auto flex min-h-[62vh] w-[min(100%-1.5rem,46rem)] flex-col items-center justify-center px-3 py-20 text-center sm:min-h-[74vh] sm:py-24">
+        <div className="mx-auto flex min-h-[62vh] w-[min(100%-1.5rem,72rem)] flex-col items-center justify-center px-2 py-20 text-center sm:min-h-[74vh] sm:px-6 sm:py-24">
           <p className="banner-kicker">Practice Squad Rankings</p>
           <span aria-hidden className="rule-gold mt-6 mb-7" />
-          <h1 className="banner-title font-[family-name:var(--font-display)] text-[clamp(2.1rem,7vw,4.8rem)] leading-[0.94] font-bold tracking-[0.04em] uppercase">
+          <h1 className="banner-title font-[family-name:var(--font-display)] text-[clamp(1.85rem,6.4vw,4.6rem)] leading-[0.95] font-bold tracking-[0.06em] uppercase">
             {filter("Welcome to the Biggest Shitshow on the West Coast")}
           </h1>
           <span aria-hidden className="rule-gold mt-8 mb-7" />
