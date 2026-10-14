@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { CroppableImage } from "@/components/CroppableImage";
+import { MarbleBanner } from "@/components/MarbleBanner";
 import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 import { useSafeMode } from "@/components/SafeModeProvider";
-import { getHomeCards, MARBLE } from "@/lib/covers";
+import { getHomeCards } from "@/lib/covers";
 import { coverCropKey } from "@/lib/photo-crops";
 
 const HOME_CARDS = getHomeCards();
@@ -16,40 +16,33 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="relative overflow-hidden border-b border-line">
-        <Image
-          src={MARBLE}
-          alt=""
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(47,93,74,0.12),transparent_38%,rgba(230,227,219,0.22))]"
-        />
-        <div className="relative mx-auto flex min-h-[58vh] w-[min(100%-1.5rem,72rem)] flex-col items-center justify-center px-2 py-16 text-center sm:min-h-[70vh]">
-          <h1 className="outline-title font-[family-name:var(--font-display)] text-[clamp(1.85rem,6.4vw,4.6rem)] leading-[0.95] font-bold tracking-[0.06em] uppercase">
+      <MarbleBanner priority>
+        <div className="mx-auto flex min-h-[62vh] w-[min(100%-1.5rem,46rem)] flex-col items-center justify-center px-3 py-20 text-center sm:min-h-[74vh] sm:py-24">
+          <p className="banner-kicker">Practice Squad Rankings</p>
+          <span aria-hidden className="rule-gold mt-6 mb-7" />
+          <h1 className="banner-title font-[family-name:var(--font-display)] text-[clamp(2.1rem,7vw,4.8rem)] leading-[0.94] font-bold tracking-[0.04em] uppercase">
             {filter("Welcome to the Biggest Shitshow on the West Coast")}
           </h1>
-          <p className="mt-8 max-w-3xl text-[0.72rem] font-semibold tracking-[0.18em] text-ink/80 uppercase sm:text-xs">
+          <span aria-hidden className="rule-gold mt-8 mb-7" />
+          <p className="banner-copy max-w-2xl text-[0.72rem] font-semibold tracking-[0.2em] uppercase sm:text-xs">
             {filter(
               "The Seattle Seacocks Practice Squad's Ranking page Brought to you by your wonderful Commissioner, big dawg, little hog, Trevor Faust",
             )}
           </p>
         </div>
-      </section>
+      </MarbleBanner>
 
       <section>
         {HOME_CARDS.map((card, index) => {
           const photoRight = index % 2 === 0;
           const key = coverCropKey(card.href);
           const cropping = activeKey === key;
+          const year = card.href.split("/").filter(Boolean)[0];
+          const isRecap = card.href.split("/").filter(Boolean).length === 1;
           return (
             <article
               key={card.href}
-              className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-mint/35 sm:min-h-[72vh] sm:grid-cols-2"
+              className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-panel sm:min-h-[72vh] sm:grid-cols-2"
             >
               <div
                 className={`relative min-h-[42vh] bg-matte sm:min-h-[72vh] ${
@@ -78,11 +71,14 @@ export default function HomePage() {
               </div>
               <Link
                 href={card.href}
-                className={`flex flex-col justify-center bg-transparent px-8 py-12 sm:px-12 md:px-16 ${
+                className={`flex flex-col justify-center px-8 py-14 sm:px-12 md:px-16 ${
                   photoRight ? "sm:order-1" : "sm:order-2"
                 }`}
               >
-                <h2 className="italic-shadow font-[family-name:var(--font-display)] text-4xl leading-[0.95] italic sm:text-6xl">
+                <p className="text-[0.68rem] font-semibold tracking-[0.32em] text-gold uppercase">
+                  {isRecap ? "Season recap" : `${year} installment`}
+                </p>
+                <h2 className="italic-shadow mt-4 font-[family-name:var(--font-display)] text-4xl leading-[0.95] italic sm:text-6xl">
                   {filter(card.title)
                     .split("\n")
                     .map((line, lineIndex) => (
@@ -94,7 +90,8 @@ export default function HomePage() {
                       </span>
                     ))}
                 </h2>
-                <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
+                <span aria-hidden className="mt-6 h-px w-12 bg-gold/45" />
+                <p className="mt-5 max-w-xl text-base leading-7 text-muted sm:text-lg">
                   {filter(card.blurb)}
                 </p>
               </Link>

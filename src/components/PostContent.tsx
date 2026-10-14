@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { MarbleBanner } from "@/components/MarbleBanner";
 import { useSafeMode } from "@/components/SafeModeProvider";
 import { RankingPhoto } from "@/components/RankingPhoto";
 import type { Post } from "@/lib/content";
@@ -154,16 +155,15 @@ export function PostContent({ post }: { post: Post }) {
 
   return (
     <article>
-      <header className="border-b border-line bg-mint">
-        <div className="mx-auto w-[min(100%-1.5rem,72rem)] py-14 text-center sm:py-20">
-          <p className="mb-5 text-xs font-semibold tracking-[0.2em] text-gold uppercase">
-            {post.season} season
-          </p>
-          <h1 className="italic-shadow font-[family-name:var(--font-display)] text-[clamp(2.6rem,8vw,6.2rem)] leading-[0.92] italic">
+      <MarbleBanner>
+        <header className="mx-auto w-[min(100%-1.5rem,72rem)] py-16 text-center sm:py-24">
+          <p className="banner-kicker mb-6">{post.season} season</p>
+          <h1 className="banner-title font-[family-name:var(--font-display)] text-[clamp(2.6rem,8vw,6.2rem)] leading-[0.92] italic">
             {filter(post.title)}
           </h1>
-        </div>
-      </header>
+          <span aria-hidden className="rule-gold mx-auto mt-8" />
+        </header>
+      </MarbleBanner>
 
       {intro.length > 0 ? (
         <div className="mx-auto w-[min(100%-1.5rem,46rem)] space-y-5 py-12 text-center text-[1.08rem] leading-8 text-ink/90">

@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <PhotoCropsProvider>
             <SiteHeader />
             <main className="flex-1">{children}</main>
-            <footer className="border-t border-line bg-mint/80 py-8 text-center text-sm text-muted">
+            <footer className="border-t border-gold/25 bg-accent py-8 text-center text-sm text-cream/75">
               If you&apos;re reading this bottom text, you a bitch
             </footer>
           </PhotoCropsProvider>

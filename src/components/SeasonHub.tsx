@@ -3,6 +3,7 @@
 import Link from "next/link";
 import live from "@/content/live.json";
 import { CroppableImage } from "@/components/CroppableImage";
+import { MarbleBanner } from "@/components/MarbleBanner";
 import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 import { useSafeMode } from "@/components/SafeModeProvider";
 import type { Season } from "@/lib/content";
@@ -32,32 +33,32 @@ export function SeasonHub({ season }: { season: Season }) {
 
   return (
     <div>
-      <section className="relative border-b border-line bg-mint">
+      <MarbleBanner>
         <div className="relative mx-auto flex w-[min(100%-1.5rem,44rem)] flex-col items-center px-2 py-16 text-center sm:py-20">
-          <p className="text-[0.68rem] font-semibold tracking-[0.32em] text-gold uppercase">
+          <p className="banner-kicker">
             {HOME_RECAPS.some((recap) => recap.year === String(season.year))
               ? "Season recap"
               : "Current season"}
           </p>
-          <div className="relative isolate mt-4 px-3 pb-3">
+          <div className="relative isolate mt-5 px-3 pb-3">
             <span
               aria-hidden
-              className="pointer-events-none absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-accent/[0.10] italic select-none"
+              className="pointer-events-none absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-cream/10 italic select-none"
             >
               {season.year}
             </span>
-            <h1 className="italic-shadow relative z-0 font-[family-name:var(--font-display)] text-[clamp(2.85rem,8.4vw,5.8rem)] leading-[1.12] italic">
+            <h1 className="banner-title relative z-0 font-[family-name:var(--font-display)] text-[clamp(2.85rem,8.4vw,5.8rem)] leading-[1.12] italic">
               {filter(title)}
             </h1>
           </div>
-          <span className="mt-5 h-px w-14 bg-gold/45" />
-          <p className="mt-7 max-w-xl text-[1.05rem] leading-8 text-ink/80">
+          <span aria-hidden className="rule-gold mt-6" />
+          <p className="banner-copy mt-7 max-w-xl text-[1.05rem] leading-8">
             {filter(blurb)}
           </p>
         </div>
-      </section>
+      </MarbleBanner>
 
-      <ol className="divide-y divide-line bg-bg">
+      <ol className="divide-y divide-line bg-panel">
         {posts.map((post, index) => {
           const href = `/${post.season}/${post.slug}`;
           const image = coverFor(href);
@@ -66,7 +67,7 @@ export function SeasonHub({ season }: { season: Season }) {
           const cropping = activeKey === key;
           return (
             <li key={post.slug}>
-              <div className="group grid items-stretch bg-mint/25 sm:grid-cols-2">
+              <div className="group grid items-stretch bg-panel sm:grid-cols-2">
                 <div
                   className={`relative flex aspect-[16/10] items-center justify-center bg-matte ${
                     photoRight ? "sm:order-2" : "sm:order-1"

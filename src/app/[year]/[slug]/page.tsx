@@ -35,7 +35,7 @@ export default async function PostPage({
 
   return (
     <div>
-      <div className="border-b border-line bg-mint/55">
+      <div className="border-b border-line bg-panel">
         <div className="mx-auto w-[min(100%-1.5rem,72rem)] py-4">
           <Link href={`/${year}`} className="text-sm tracking-wide text-muted uppercase hover:text-accent">
             ← {season.title}
