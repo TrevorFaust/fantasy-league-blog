@@ -157,7 +157,7 @@ export function CroppableImage({
   return (
     <div
       ref={boxRef}
-      className={`croppable-frame absolute inset-0 overflow-hidden bg-[#d8d4cc] select-none ${
+      className={`croppable-frame absolute inset-0 overflow-hidden bg-matte select-none ${
         active ? "z-20" : "pointer-events-none"
       } ${className}`}
       onClick={active ? blockLink : undefined}

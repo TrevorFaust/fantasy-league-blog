@@ -25,6 +25,10 @@ export default function HomePage() {
           className="object-cover"
           sizes="100vw"
         />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(47,93,74,0.12),transparent_38%,rgba(230,227,219,0.22))]"
+        />
         <div className="relative mx-auto flex min-h-[58vh] w-[min(100%-1.5rem,72rem)] flex-col items-center justify-center px-2 py-16 text-center sm:min-h-[70vh]">
           <h1 className="outline-title font-[family-name:var(--font-display)] text-[clamp(1.85rem,6.4vw,4.6rem)] leading-[0.95] font-bold tracking-[0.06em] uppercase">
             {filter("Welcome to the Biggest Shitshow on the West Coast")}
@@ -45,10 +49,10 @@ export default function HomePage() {
           return (
             <article
               key={card.href}
-              className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-bg-elev sm:min-h-[72vh] sm:grid-cols-2"
+              className="group grid min-h-[64vh] overflow-hidden border-b border-line bg-mint/35 sm:min-h-[72vh] sm:grid-cols-2"
             >
               <div
-                className={`relative min-h-[42vh] bg-[#d8d4cc] sm:min-h-[72vh] ${
+                className={`relative min-h-[42vh] bg-matte sm:min-h-[72vh] ${
                   photoRight ? "sm:order-2" : "sm:order-1"
                 }`}
               >
@@ -74,7 +78,7 @@ export default function HomePage() {
               </div>
               <Link
                 href={card.href}
-                className={`flex flex-col justify-center bg-bg-elev px-8 py-12 sm:px-12 md:px-16 ${
+                className={`flex flex-col justify-center bg-transparent px-8 py-12 sm:px-12 md:px-16 ${
                   photoRight ? "sm:order-1" : "sm:order-2"
                 }`}
               >

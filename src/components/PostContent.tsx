@@ -156,7 +156,7 @@ export function PostContent({ post }: { post: Post }) {
     <article>
       <header className="border-b border-line bg-mint">
         <div className="mx-auto w-[min(100%-1.5rem,72rem)] py-14 text-center sm:py-20">
-          <p className="mb-5 text-xs font-semibold tracking-[0.2em] text-ink/70 uppercase">
+          <p className="mb-5 text-xs font-semibold tracking-[0.2em] text-gold uppercase">
             {post.season} season
           </p>
           <h1 className="italic-shadow font-[family-name:var(--font-display)] text-[clamp(2.6rem,8vw,6.2rem)] leading-[0.92] italic">

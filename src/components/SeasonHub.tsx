@@ -34,7 +34,7 @@ export function SeasonHub({ season }: { season: Season }) {
     <div>
       <section className="relative border-b border-line bg-mint">
         <div className="relative mx-auto flex w-[min(100%-1.5rem,44rem)] flex-col items-center px-2 py-16 text-center sm:py-20">
-          <p className="text-[0.68rem] font-semibold tracking-[0.32em] text-ink/55 uppercase">
+          <p className="text-[0.68rem] font-semibold tracking-[0.32em] text-gold uppercase">
             {HOME_RECAPS.some((recap) => recap.year === String(season.year))
               ? "Season recap"
               : "Current season"}
@@ -42,7 +42,7 @@ export function SeasonHub({ season }: { season: Season }) {
           <div className="relative isolate mt-4 px-3 pb-3">
             <span
               aria-hidden
-              className="pointer-events-none absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-ink/[0.06] italic select-none"
+              className="pointer-events-none absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-[52%] font-[family-name:var(--font-display)] text-[min(28vw,8.5rem)] leading-none font-bold text-accent/[0.10] italic select-none"
             >
               {season.year}
             </span>
@@ -50,7 +50,7 @@ export function SeasonHub({ season }: { season: Season }) {
               {filter(title)}
             </h1>
           </div>
-          <span className="mt-5 h-px w-14 bg-ink/20" />
+          <span className="mt-5 h-px w-14 bg-gold/45" />
           <p className="mt-7 max-w-xl text-[1.05rem] leading-8 text-ink/80">
             {filter(blurb)}
           </p>
@@ -66,9 +66,9 @@ export function SeasonHub({ season }: { season: Season }) {
           const cropping = activeKey === key;
           return (
             <li key={post.slug}>
-              <div className="group grid items-stretch bg-bg sm:grid-cols-2">
+              <div className="group grid items-stretch bg-mint/25 sm:grid-cols-2">
                 <div
-                  className={`relative flex aspect-[16/10] items-center justify-center bg-bg ${
+                  className={`relative flex aspect-[16/10] items-center justify-center bg-matte ${
                     photoRight ? "sm:order-2" : "sm:order-1"
                   }`}
                 >
@@ -93,7 +93,7 @@ export function SeasonHub({ season }: { season: Season }) {
                 </div>
                 <Link
                   href={href}
-                  className={`flex flex-col items-center justify-center bg-bg px-8 py-10 text-center ${
+                  className={`flex flex-col items-center justify-center bg-transparent px-8 py-10 text-center ${
                     photoRight ? "sm:order-1" : "sm:order-2"
                   }`}
                 >

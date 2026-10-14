@@ -18,7 +18,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
 
   return (
     <div
-      className={`relative mb-5 w-full overflow-hidden bg-[#d8d4cc] ${
+      className={`relative mb-5 w-full overflow-hidden bg-matte ${
         pulledBack ? "aspect-[4/5]" : "aspect-[3/4]"
       } sm:mb-5 sm:w-[min(60%,38rem)] ${
         photoLeft ? "sm:float-left sm:mr-8" : "sm:float-right sm:ml-8"
