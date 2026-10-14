@@ -17,7 +17,7 @@ export type ParsedPost = {
 
 const RANK_LINE = /^(\d{1,2})\s*[\.:]\s*(.*)$/;
 const STAT_LINE =
-  /^(Post Draft Ranking|Post Draft Change|Quarterly Change|Weekly Change|Record)\s*:\s*(.+)$/i;
+  /^(Post Draft Ranking|Post Draft Change|Quarterly Change|Weekly Change|Change|Record)\s*:\s*(.+)$/i;
 
 function clean(text: string) {
   return text.replace(/\u200b/g, "").replace(/\u00a0/g, " ").trim();

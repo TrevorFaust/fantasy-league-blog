@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import live from "@/content/live.json";
 import { CroppableImage } from "@/components/CroppableImage";
 import { usePhotoCrops } from "@/components/PhotoCropsProvider";
 import { useSafeMode } from "@/components/SafeModeProvider";
@@ -24,6 +25,10 @@ export function SeasonHub({ season }: { season: Season }) {
   const { filter } = useSafeMode();
   const { activeKey } = usePhotoCrops();
   const { title, blurb } = recapCopy(season);
+  const newestFirst = Object.prototype.hasOwnProperty.call(live.seasons, String(season.year));
+  const posts = newestFirst
+    ? [...season.posts].sort((a, b) => b.order - a.order)
+    : season.posts;
 
   return (
     <div>
@@ -53,10 +58,10 @@ export function SeasonHub({ season }: { season: Season }) {
       </section>
 
       <ol className="divide-y divide-line bg-bg">
-        {season.posts.map((post, index) => {
+        {posts.map((post, index) => {
           const href = `/${post.season}/${post.slug}`;
           const image = coverFor(href);
-          const photoRight = index % 2 === 1;
+          const photoRight = newestFirst ? index % 2 === 0 : index % 2 === 1;
           const key = coverCropKey(href);
           const cropping = activeKey === key;
           return (

@@ -3,7 +3,7 @@
     "2026": {
       "year": 2026,
       "title": "2026 Season",
-      "blurb": "New year, new draft, same circus. First installment is up — portraits and the full recap are coming.",
+      "blurb": "Five weeks in. The 30% check-in is up, and the draft takes are on the table.",
       "hubPath": "/2026",
       "posts": [
         {
@@ -88,6 +88,79 @@
             {
               "alt": "Brody",
               "src": "/images/2026/brody.jpg"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "slug": "first-trimester",
+          "title": "2026 Weeks 1-5 Rankings",
+          "hubLabel": "The First Trimester (of your fantasy Baby)",
+          "order": 2,
+          "wixUrl": "",
+          "blocks": [
+            "Five weeks in. This is the 30% check-in, the first trimester of your fantasy baby, and the ultrasound looks rough. The preseason had the Chargers running the AFC West. Herbert and that roster. They are 0-5. Eighty-four points scored, 129 allowed, zero wins. That is Katie. I had Like a Good Naber second when the draft ended, Hampton and Nabers at the turn, and I wrote that post like the trophy was on her counter. She is 2-3, and she is tenth.\n\nMinnesota was a team you could skip in August. The Vikings are 5-0. They have scored 109 and allowed 64. That is Max. I had LaPorta Potty Party third and told him somebody else was coming out of the draft ahead of him. He is 5-0 and he is first. The Raiders are 3-2 in that same division and they have hung 132 points on people, while the Chargers hunt for a win.",
+            "12. Blowin' My J's (Jordan)\nChange: -1\nRecord: 2-3",
+            "11. Newpdogg (Olivia)\nChange: +1\nRecord: 1-4",
+            "10. Like a Good Naber (Katie)\nChange: -8\nRecord: 2-3",
+            "9. Gay People Can't Play Football (Gabe)\nChange: -3\nRecord: 3-2",
+            "8. Chrome Dome Clankers (Trevor)\nChange: -4\nRecord: 1-4",
+            "7. Baby Choda (Brendan)\nChange: +2\nRecord: 2-3",
+            "6. Bootyhole Browns (Brody)\nChange: -5\nRecord: 4-1",
+            "5. Baby got Dak (Jess)\nChange: -\nRecord: 3-2",
+            "4. All My Opponents Goofy (Maggie)\nChange: +3\nRecord: 1-4",
+            "3. Jockstraps (Haley)\nChange: +7\nRecord: 2-3",
+            "2. Fondle These Footballz (Brin)\nChange: +6\nRecord: 4-1",
+            "1. LaPorta Potty Party (Max)\nChange: +2\nRecord: 5-0"
+          ],
+          "images": [
+            {
+              "alt": "Jordan",
+              "src": "/images/2026/jordan.jpg"
+            },
+            {
+              "alt": "Olivia",
+              "src": "/images/2026/olivia.jpg"
+            },
+            {
+              "alt": "Katie",
+              "src": "/images/2026/katie.jpg"
+            },
+            {
+              "alt": "Gabe",
+              "src": "/images/2026/gabe.jpg"
+            },
+            {
+              "alt": "Trevor",
+              "src": "/images/2026/trevor.jpg"
+            },
+            {
+              "alt": "Brendan",
+              "src": "/images/2026/brendan.jpg"
+            },
+            {
+              "alt": "Brody",
+              "src": "/images/2026/brody.jpg"
+            },
+            {
+              "alt": "Jess",
+              "src": "/images/2026/jess.jpg"
+            },
+            {
+              "alt": "Maggie",
+              "src": "/images/2026/maggie.jpg"
+            },
+            {
+              "alt": "Haley",
+              "src": "/images/2026/haley.jpg"
+            },
+            {
+              "alt": "Brin",
+              "src": "/images/2026/brin.jpg"
+            },
+            {
+              "alt": "Max",
+              "src": "/images/2026/max.jpg"
             }
           ]
         }

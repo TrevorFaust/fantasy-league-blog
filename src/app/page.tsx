@@ -39,7 +39,7 @@ export default function HomePage() {
 
       <section>
         {HOME_CARDS.map((card, index) => {
-          const photoRight = index % 2 === 1;
+          const photoRight = index % 2 === 0;
           const key = coverCropKey(card.href);
           const cropping = activeKey === key;
           return (
