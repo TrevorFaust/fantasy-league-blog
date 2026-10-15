@@ -187,55 +187,42 @@ export function PostContent({ post }: { post: Post }) {
             return (
               <section
                 key={`${entry.rank}-${entry.title}`}
-                className="overflow-hidden border-t border-line bg-panel"
+                className="overflow-hidden border-t border-line bg-panel px-5 py-10 sm:px-8 md:px-12"
               >
-                <div className={showPhoto ? "sm:grid sm:grid-cols-2 sm:items-stretch" : ""}>
-                  {showPhoto ? (
-                    <div
-                      className={`relative aspect-[3/4] bg-matte sm:aspect-auto sm:h-full sm:min-h-[28rem] ${
-                        photoLeft ? "sm:order-1" : "sm:order-2"
-                      }`}
-                    >
-                      <RankingPhoto
-                        year={post.season}
-                        title={entry.title}
-                        src={entry.image?.src}
-                        alt={filter(entry.image?.alt || entry.title)}
-                      />
-                    </div>
-                  ) : null}
-                  <div
-                    className={`px-5 py-10 sm:px-8 md:px-12 ${
-                      showPhoto ? (photoLeft ? "sm:order-2" : "sm:order-1") : "mx-auto max-w-3xl"
-                    }`}
-                  >
-                    <header className="mb-8 text-center">
-                      <h2 className="font-[family-name:var(--font-display)] text-3xl leading-[1.12] sm:text-5xl">
-                        {filter(`${entry.rank}. ${entry.title}`)}
-                      </h2>
-                      {entry.stats.length > 0 ? (
-                        <dl className="mt-4 space-y-1 text-[1.12rem] font-semibold leading-7 text-ink sm:text-xl">
-                          {entry.stats.map((stat) => (
-                            <div key={stat.label}>
-                              <dt className="inline">{filter(stat.label)}: </dt>
-                              <dd className="inline">{filter(stat.value)}</dd>
-                            </div>
-                          ))}
-                        </dl>
-                      ) : null}
-                    </header>
-                    <div className="space-y-4 text-center text-[1.05rem] leading-7 text-ink/90">
-                      {(byRank.get(entry.rank) ?? []).map((slice) => (
-                        <EditableParagraph
-                          key={`${slice.blockIndex}-${slice.paragraphIndex}-${slice.text.slice(0, 32)}`}
-                          slice={slice}
-                          season={post.season}
-                          slug={post.slug}
-                          className="whitespace-pre-wrap"
-                        />
+                {showPhoto ? (
+                  <RankingPhoto
+                    year={post.season}
+                    title={entry.title}
+                    src={entry.image?.src}
+                    alt={filter(entry.image?.alt || entry.title)}
+                    photoLeft={photoLeft}
+                  />
+                ) : null}
+                <header className="mb-8 text-center">
+                  <h2 className="font-[family-name:var(--font-display)] text-3xl leading-[1.12] sm:text-5xl">
+                    {filter(`${entry.rank}. ${entry.title}`)}
+                  </h2>
+                  {entry.stats.length > 0 ? (
+                    <dl className="mt-4 space-y-1 text-[1.12rem] font-semibold leading-7 text-ink sm:text-xl">
+                      {entry.stats.map((stat) => (
+                        <div key={stat.label}>
+                          <dt className="inline">{filter(stat.label)}: </dt>
+                          <dd className="inline">{filter(stat.value)}</dd>
+                        </div>
                       ))}
-                    </div>
-                  </div>
+                    </dl>
+                  ) : null}
+                </header>
+                <div className="space-y-4 text-center text-[1.05rem] leading-7 text-ink/90">
+                  {(byRank.get(entry.rank) ?? []).map((slice) => (
+                    <EditableParagraph
+                      key={`${slice.blockIndex}-${slice.paragraphIndex}-${slice.text.slice(0, 32)}`}
+                      slice={slice}
+                      season={post.season}
+                      slug={post.slug}
+                      className="whitespace-pre-wrap"
+                    />
+                  ))}
                 </div>
               </section>
             );
