@@ -36,9 +36,6 @@ export async function POST(request: Request) {
   }
 
   const text = body.text.trim();
-  if (!text) {
-    return NextResponse.json({ error: "Paragraph can’t be empty" }, { status: 400 });
-  }
 
   for (const file of FILES) {
     const raw = await fs.readFile(file, "utf8");
@@ -52,9 +49,10 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Paragraph not found" }, { status: 404 });
     }
 
-    post.blocks[body.blockIndex] = next;
+    if (next) post.blocks[body.blockIndex] = next;
+    else post.blocks.splice(body.blockIndex, 1);
     await fs.writeFile(file, `${JSON.stringify(data, null, 2)}\n`, "utf8");
-    return NextResponse.json({ ok: true, text });
+    return NextResponse.json({ ok: true, text, deleted: !text });
   }
 
   return NextResponse.json({ error: "Post not found" }, { status: 404 });

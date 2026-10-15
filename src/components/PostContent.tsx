@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { MarbleBanner } from "@/components/MarbleBanner";
 import { useSafeMode } from "@/components/SafeModeProvider";
@@ -52,17 +53,22 @@ function EditableParagraph({
   className: string;
 }) {
   const { filter } = useSafeMode();
+  const router = useRouter();
   const [editing, setEditing] = useState(false);
   const [value, setValue] = useState(slice.text);
   const [draft, setDraft] = useState(slice.text);
   const [saving, setSaving] = useState(false);
+  const [removed, setRemoved] = useState(false);
   const [error, setError] = useState("");
+  const blank = !draft.trim();
 
   useEffect(() => {
     if (editing) return;
     setValue(slice.text);
     setDraft(slice.text);
   }, [slice.text, editing]);
+
+  if (removed) return null;
 
   if (!canEdit) {
     return <p className={className}>{filter(slice.text)}</p>;
@@ -71,7 +77,7 @@ function EditableParagraph({
   if (!editing) {
     return (
       <div>
-        <p className={className}>{filter(slice.text)}</p>
+        <p className={className}>{filter(value)}</p>
         <button
           type="button"
           className="mt-2 text-xs font-semibold tracking-[0.14em] text-ink/45 uppercase hover:text-ink"
@@ -88,7 +94,7 @@ function EditableParagraph({
     );
   }
 
-  async function save() {
+  async function persist(text: string) {
     setSaving(true);
     setError("");
     try {
@@ -100,21 +106,33 @@ function EditableParagraph({
           slug,
           blockIndex: slice.blockIndex,
           paragraphIndex: slice.paragraphIndex,
-          text: draft,
+          text,
         }),
       });
-      const payload = (await response.json()) as { error?: string; text?: string };
-      if (!response.ok || !payload.text) {
+      const payload = (await response.json()) as { error?: string; text?: string; deleted?: boolean };
+      if (!response.ok) {
         setError(payload.error || "Couldn’t save");
         return;
       }
-      setValue(payload.text);
+      if (payload.deleted) {
+        setRemoved(true);
+        setEditing(false);
+        router.refresh();
+        return;
+      }
+      setValue(payload.text ?? text.trim());
       setEditing(false);
+      router.refresh();
     } catch {
       setError("Couldn’t save");
     } finally {
       setSaving(false);
     }
+  }
+
+  function remove() {
+    if (draft.trim() && !window.confirm("Remove this paragraph?")) return;
+    void persist("");
   }
 
   return (
@@ -129,11 +147,21 @@ function EditableParagraph({
         <button
           type="button"
           disabled={saving}
-          onClick={save}
+          onClick={() => void persist(draft)}
           className="border border-ink bg-ink px-4 py-1.5 text-xs font-semibold tracking-[0.14em] text-bg uppercase disabled:opacity-50"
         >
-          {saving ? "Saving" : "Save"}
+          {saving ? "Saving" : blank ? "Remove" : "Save"}
         </button>
+        {blank ? null : (
+          <button
+            type="button"
+            disabled={saving}
+            onClick={remove}
+            className="border border-line px-4 py-1.5 text-xs font-semibold tracking-[0.14em] uppercase"
+          >
+            Remove
+          </button>
+        )}
         <button
           type="button"
           disabled={saving}
