@@ -9,21 +9,14 @@ type RankingPhotoProps = {
   title: string;
   src?: string;
   alt: string;
-  photoLeft: boolean;
 };
 
-export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoProps) {
+export function RankingPhoto({ year, title, src, alt }: RankingPhotoProps) {
   const pulledBack = rankingPhotoFit(title, alt) === "contain";
   const key = cropKey(year, personKey(title, alt));
 
   return (
-    <div
-      className={`relative mb-5 w-full overflow-hidden bg-matte ${
-        pulledBack ? "aspect-[4/5]" : "aspect-[3/4]"
-      } sm:mb-5 sm:w-[min(60%,38rem)] ${
-        photoLeft ? "sm:float-left sm:mr-8" : "sm:float-right sm:ml-8"
-      }`}
-    >
+    <div className="absolute inset-0 overflow-hidden bg-matte">
       {src ? (
         <CroppableImage
           cropKey={key}
@@ -31,7 +24,7 @@ export function RankingPhoto({ year, title, src, alt, photoLeft }: RankingPhotoP
           alt={alt}
           fit={pulledBack ? "contain" : "cover"}
           activate="click"
-          sizes="(max-width: 768px) 100vw, 60vw"
+          sizes="(max-width: 768px) 100vw, 50vw"
         />
       ) : (
         <div className="flex h-full items-center justify-center px-6 text-center text-sm font-semibold tracking-[0.16em] text-ink/45 uppercase">
