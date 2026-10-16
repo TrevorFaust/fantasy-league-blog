@@ -7,6 +7,8 @@ import { useSafeMode } from "@/components/SafeModeProvider";
 
 const YEARS = ["2026", "2025", "2024", "2023"] as const;
 
+const canToggleSafe = process.env.NODE_ENV === "development";
+
 export function SiteHeader() {
   const { safe, setSafe } = useSafeMode();
   const pathname = usePathname();
@@ -29,14 +31,14 @@ export function SiteHeader() {
           />
         </Link>
 
-        <nav className="flex items-center gap-3 sm:gap-5">
-          {YEARS.map((year, index) => {
+        <nav aria-label="Seasons" className="flex flex-wrap items-center justify-end gap-x-3 gap-y-1 sm:gap-5">
+          {YEARS.map((year) => {
             const active = pathname === `/${year}` || pathname.startsWith(`/${year}/`);
             return (
               <Link
                 key={year}
                 href={`/${year}`}
-                className={`${index > 0 ? "hidden sm:inline" : ""} text-sm tracking-wide ${
+                className={`inline-flex min-h-11 items-center text-sm tracking-wide ${
                   active
                     ? "font-semibold text-accent underline decoration-gold decoration-2 underline-offset-6"
                     : "text-muted hover:text-accent"
@@ -46,18 +48,20 @@ export function SiteHeader() {
               </Link>
             );
           })}
-          <button
-            type="button"
-            onClick={() => setSafe(!safe)}
-            className={`min-h-11 rounded-full border px-3 py-1.5 text-xs font-semibold tracking-wide uppercase transition ${
-              safe
-                ? "border-accent bg-accent text-cream"
-                : "border-line bg-bg-elev text-muted hover:text-ink"
-            }`}
-            title="Censor swears for work / family browsing. Also works with ?safe=1"
-          >
-            {safe ? "Safe mode on" : "Safe mode"}
-          </button>
+          {canToggleSafe ? (
+            <button
+              type="button"
+              onClick={() => setSafe(!safe)}
+              className={`min-h-11 rounded-full border px-3 py-1.5 text-xs font-semibold tracking-wide uppercase transition ${
+                safe
+                  ? "border-accent bg-accent text-cream"
+                  : "border-line bg-bg-elev text-muted hover:text-ink"
+              }`}
+              title="Preview the censored wording on this computer. League mates do not get this switch."
+            >
+              {safe ? "Safe mode on" : "Safe mode"}
+            </button>
+          ) : null}
         </nav>
       </div>
     </header>

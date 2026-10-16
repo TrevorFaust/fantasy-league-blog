@@ -19,6 +19,10 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+  if (process.env.NODE_ENV !== "development") {
+    return NextResponse.json({ error: "Not available" }, { status: 403 });
+  }
+
   const body = (await request.json()) as { key?: string; crop?: { x: number; y: number; scale: number } };
   if (!body.key || !body.crop) {
     return NextResponse.json({ error: "Missing key or crop" }, { status: 400 });

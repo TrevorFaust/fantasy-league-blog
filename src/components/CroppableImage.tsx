@@ -32,6 +32,7 @@ export function CroppableImage({
   activate = "click",
   className = "",
 }: CroppableImageProps) {
+  const canCrop = process.env.NODE_ENV === "development";
   const { activeKey, setActiveKey, getCrop, setCrop } = usePhotoCrops();
   const crop = getCrop(cropKey);
   const cropRef = useRef(crop);
@@ -182,7 +183,7 @@ export function CroppableImage({
         />
       </div>
 
-      {activate === "click" && !active ? (
+      {canCrop && activate === "click" && !active ? (
         <button
           type="button"
           className="absolute inset-0 z-10 cursor-pointer bg-transparent pointer-events-auto"
@@ -192,7 +193,7 @@ export function CroppableImage({
         />
       ) : null}
 
-      {activate === "button" && !active ? (
+      {canCrop && activate === "button" && !active ? (
         <button
           type="button"
           className="pointer-events-auto absolute top-3 right-3 z-30 min-h-11 rounded-full border border-white/70 bg-ink/75 px-3 text-[0.65rem] font-semibold tracking-[0.16em] text-bg-elev uppercase"
@@ -207,7 +208,7 @@ export function CroppableImage({
         </button>
       ) : null}
 
-      {active ? (
+      {canCrop && active ? (
         <>
           <div
             className="absolute inset-0 z-10 cursor-grab touch-none active:cursor-grabbing"

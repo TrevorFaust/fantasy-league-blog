@@ -19,12 +19,17 @@ type SafeModeContextValue = {
 
 const SafeModeContext = createContext<SafeModeContextValue | null>(null);
 const STORAGE_KEY = "psq-safe-mode";
+const canToggle = process.env.NODE_ENV === "development";
 
 export function SafeModeProvider({ children }: { children: ReactNode }) {
   const [safe, setSafeState] = useState(false);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
+    if (!canToggle) {
+      setReady(true);
+      return;
+    }
     const saved = window.localStorage.getItem(STORAGE_KEY);
     if (saved === "1") setSafeState(true);
     const params = new URLSearchParams(window.location.search);

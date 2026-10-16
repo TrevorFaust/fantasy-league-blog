@@ -69,10 +69,11 @@ export function SeasonHub({ season }: { season: Season }) {
             <li key={post.slug}>
               <div className="group grid items-stretch bg-panel sm:grid-cols-2">
                 <div
-                  className={`relative flex aspect-[16/10] items-center justify-center bg-matte ${
+                  className={`relative w-full bg-matte ${
                     photoRight ? "sm:order-2" : "sm:order-1"
                   }`}
                 >
+                  <div aria-hidden className="aspect-[16/10] w-full" />
                   {image ? (
                     <CroppableImage
                       cropKey={key}
