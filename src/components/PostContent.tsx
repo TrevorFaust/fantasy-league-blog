@@ -54,9 +54,10 @@ function EditableParagraph({
 }) {
   const { filter } = useSafeMode();
   const router = useRouter();
-  const [editing, setEditing] = useState(false);
-  const [value, setValue] = useState(slice.text);
-  const [draft, setDraft] = useState(slice.text);
+  const initial = slice.text.trim();
+  const [editing, setEditing] = useState(canEdit && !initial);
+  const [value, setValue] = useState(initial);
+  const [draft, setDraft] = useState(initial);
   const [saving, setSaving] = useState(false);
   const [removed, setRemoved] = useState(false);
   const [error, setError] = useState("");
@@ -64,8 +65,9 @@ function EditableParagraph({
 
   useEffect(() => {
     if (editing) return;
-    setValue(slice.text);
-    setDraft(slice.text);
+    const next = slice.text.trim();
+    setValue(next);
+    setDraft(next);
   }, [slice.text, editing]);
 
   if (removed) return null;
@@ -140,17 +142,18 @@ function EditableParagraph({
       <textarea
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
-        rows={Math.min(18, Math.max(5, draft.split("\n").length + 3))}
-        className={`${className} box-border w-full resize-y border border-line bg-bg px-3 py-3`}
+        rows={Math.min(18, Math.max(8, draft.split("\n").length + 3))}
+        placeholder="Write this later"
+        className={`${className} box-border min-h-48 w-full resize-y border border-line bg-bg px-3 py-3`}
       />
       <div className="mt-3 flex items-center justify-center gap-3">
         <button
           type="button"
-          disabled={saving}
+          disabled={saving || blank}
           onClick={() => void persist(draft)}
           className="border border-ink bg-ink px-4 py-1.5 text-xs font-semibold tracking-[0.14em] text-bg uppercase disabled:opacity-50"
         >
-          {saving ? "Saving" : blank ? "Remove" : "Save"}
+          {saving ? "Saving" : "Save"}
         </button>
         {blank ? null : (
           <button

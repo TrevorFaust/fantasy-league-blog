@@ -3,7 +3,7 @@
     "2026": {
       "year": 2026,
       "title": "2026 Season",
-      "blurb": "Five weeks in. The 30% check-in is up, and the draft takes are on the table.",
+      "blurb": "Week 10. Dang, we're still doing this.",
       "hubPath": "/2026",
       "posts": [
         {
@@ -165,6 +165,91 @@
             {
               "alt": "Haley",
               "src": "/images/2026/haley.jpg"
+            },
+            {
+              "alt": "Brin",
+              "src": "/images/2026/brin.jpg"
+            },
+            {
+              "alt": "Max",
+              "src": "/images/2026/max.jpg"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "slug": "week-10",
+          "title": "2026 Week 10 Rankings",
+          "hubLabel": "Dang, we're still doing this?",
+          "order": 3,
+          "wixUrl": "",
+          "blocks": [
+            "",
+            "12. Newpdogg (Olivia)\nChange: -1\nRecord: TBD",
+            "",
+            "11. Blowin' My J's (Jordan)\nChange: +1\nRecord: TBD",
+            "",
+            "10. All My Opponents Goofy (Maggie)\nChange: -6\nRecord: TBD",
+            "",
+            "9. Gay People Can't Play Football (Gabe)\nChange: -\nRecord: TBD",
+            "",
+            "8. Like a Good Naber (Katie)\nChange: +2\nRecord: TBD",
+            "",
+            "7. Chrome Dome Clankers (Trevor)\nChange: +1\nRecord: TBD",
+            "",
+            "6. Baby Choda (Brendan)\nChange: +1\nRecord: TBD",
+            "",
+            "5. Baby got Dak (Jess)\nChange: -\nRecord: TBD",
+            "",
+            "4. Jockstraps (Haley)\nChange: -1\nRecord: TBD",
+            "",
+            "3. Bootyhole Browns (Brody)\nChange: +3\nRecord: TBD",
+            "",
+            "2. Fondle These Footballz (Brin)\nChange: -\nRecord: TBD",
+            "",
+            "1. LaPorta Potty Party (Max)\nChange: -\nRecord: TBD",
+            ""
+          ],
+          "images": [
+            {
+              "alt": "Olivia",
+              "src": "/images/2026/olivia.jpg"
+            },
+            {
+              "alt": "Jordan",
+              "src": "/images/2026/jordan.jpg"
+            },
+            {
+              "alt": "Maggie",
+              "src": "/images/2026/maggie.jpg"
+            },
+            {
+              "alt": "Gabe",
+              "src": "/images/2026/gabe.jpg"
+            },
+            {
+              "alt": "Katie",
+              "src": "/images/2026/katie.jpg"
+            },
+            {
+              "alt": "Trevor",
+              "src": "/images/2026/trevor.jpg"
+            },
+            {
+              "alt": "Brendan",
+              "src": "/images/2026/brendan.jpg"
+            },
+            {
+              "alt": "Jess",
+              "src": "/images/2026/jess.jpg"
+            },
+            {
+              "alt": "Haley",
+              "src": "/images/2026/haley.jpg"
+            },
+            {
+              "alt": "Brody",
+              "src": "/images/2026/brody.jpg"
             },
             {
               "alt": "Brin",
