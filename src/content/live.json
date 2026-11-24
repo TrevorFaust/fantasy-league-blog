@@ -179,7 +179,7 @@
         {
           "season": 2026,
           "slug": "week-10",
-          "title": "2026 Week 10 Rankings",
+          "title": "2026 Weeks 6-11",
           "hubLabel": "Dang, we're still doing this?",
           "order": 3,
           "wixUrl": "",
@@ -187,9 +187,9 @@
             "",
             "12. Newpdogg (Olivia)\nChange: -1\nRecord: 1-10",
             "",
-            "11. Blowin' My J's (Jordan)\nChange: +1\nRecord: 3-8",
+            "11. All My Opponents Goofy (Maggie)\nChange: -7\nRecord: 1-10",
             "",
-            "10. All My Opponents Goofy (Maggie)\nChange: -6\nRecord: 1-10",
+            "10. Blowin' My J's (Jordan)\nChange: +2\nRecord: 3-8",
             "",
             "9. Gay People Can't Play Football (Gabe)\nChange: -\nRecord: 4-7",
             "",
@@ -216,12 +216,12 @@
               "src": "/images/2026/olivia.jpg"
             },
             {
-              "alt": "Jordan",
-              "src": "/images/2026/jordan.jpg"
-            },
-            {
               "alt": "Maggie",
               "src": "/images/2026/maggie.jpg"
+            },
+            {
+              "alt": "Jordan",
+              "src": "/images/2026/jordan.jpg"
             },
             {
               "alt": "Gabe",
