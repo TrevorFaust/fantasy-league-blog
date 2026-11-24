@@ -23,6 +23,7 @@ export const RECAP_COVERS: Record<string, string> = {
 
 /** Magazine covers from the Wix 2023/2024 recap hubs — not the first in-post portrait. */
 export const HUB_COVERS: Record<string, string> = {
+  "/2026/week-10": "/covers/2026-week-10.jpg",
   "/2026/first-trimester": "/covers/2026-week-5.jpg",
   "/2026/post-draft": "/covers/2026-post-draft.jpg",
   "/2024/lets-run-it-back":
